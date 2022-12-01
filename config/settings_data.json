@@ -131,7 +131,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/Logo-b-l.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
