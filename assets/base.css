@@ -2256,7 +2256,7 @@ input[type='checkbox'] {
 }
 
 @media screen and (min-width: 990px) {
-  .header--middle-left {  grid-template-columns: 1fr 5fr 1fr !important; }
+  .header--middle-left {  grid-template-columns: 1fr 5fr 0fr !important; }
   .header--middle-left .header__inline-menu { text-align: right; }
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
