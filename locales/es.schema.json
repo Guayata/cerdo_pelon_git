@@ -636,6 +636,9 @@
         "title": {
           "label": "Título"
         },
+        "subtitle": {
+          "label": "Subtitulo"
+        },
         "collection": {
           "label": "Colección"
         },

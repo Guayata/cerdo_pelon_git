@@ -24,7 +24,7 @@
       color: black;
          text-decoration: none; 
     }
-    .dawn-product-slider a .title:hover {
+    .dawn-product-slider a .title:hover{
          text-decoration: underline; 
     }
     .dawn-product-slider a .title, .dawn-product-slider a .price {
@@ -56,11 +56,14 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <!-- JavaScript -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <div class="collection page-width">
-    <div class="title-wrapper-with-link">
-      <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+  {% comment %} <div class="center collection page-width">
+    <div>
+      <h2>{{ section.settings.title | escape }}</h2>
     </div>
-  </div>
+    <div>
+      <h2>{{ section.settings.subtitle | escape }}</h2>
+    </div>
+  </div> {% endcomment %}
   <div class="dawn-product-slider">
      <div class="carousel">
         {% for block in section.blocks %}
