@@ -148,19 +148,21 @@
         "label": "t:sections.featured-collection.settings.title.label"
       }
     ] ,
-        "blocks": [
+    "blocks": [
       {
-          "type": "card",
-          "name": "Product card",
-          "settings": [
+         "type": "collection",
+         "name": "Collection",
+         "limit": 1,
+         "settings": [
             {
-              "type": "product",
-              "id": "product_item",
-              "label": "Choose the product you want to displayed"
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
             }
-          ]
+
+         ]
       }
-    ] ,
+   ],
     "presets": [
       {
         "name": "Product slider",
