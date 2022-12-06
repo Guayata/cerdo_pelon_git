@@ -64,7 +64,7 @@
   <div class="dawn-product-slider">
      <div class="carousel">
         {% for block in section.blocks %}
-        {% assign product = all_products[block.settings.product_item] %}
+         {%- for product in collections[block.settings.collection].products -%}
         <div class="carousel-cell">
            <a href="{{ product.url }}">
               <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" />
@@ -72,6 +72,7 @@
               <p class="price">{{ product.price | money }}</p>
            </a>
         </div>
+           {% endfor %}
         {% endfor %}
      </div>
      <!--- Coded by keiwords.com --->
