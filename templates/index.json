@@ -36,6 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner.png",
+        "image_mobile": "shopify:\/\/shop_images\/Grupo_148.png",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "adapt_height_first_image": false,
