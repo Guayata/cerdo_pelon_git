@@ -84,7 +84,7 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -171,6 +171,39 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "72b0c744-4a6a-42b1-80c8-50a1e43fe18f": {
+      "type": "product-slider",
+      "blocks": {
+        "a40a1d9f-1a3b-4bd3-b3ca-841b1c035d90": {
+          "type": "card",
+          "settings": {
+            "product_item": "jamon-pata-cinco"
+          }
+        },
+        "eb429b78-7ce8-418f-a7ed-cc5eb17337f1": {
+          "type": "card",
+          "settings": {
+            "product_item": "jamon-pata-tres"
+          }
+        },
+        "c348deb1-2344-4563-9f4a-eecf3fcfa13e": {
+          "type": "card",
+          "settings": {
+            "product_item": "jamon-pata-tres"
+          }
+        }
+      },
+      "block_order": [
+        "a40a1d9f-1a3b-4bd3-b3ca-841b1c035d90",
+        "eb429b78-7ce8-418f-a7ed-cc5eb17337f1",
+        "c348deb1-2344-4563-9f4a-eecf3fcfa13e"
+      ],
+      "settings": {
+        "navigation_amount": 3,
+        "navigation_color": "",
+        "title": "Products slider"
+      }
     }
   },
   "order": [
@@ -178,6 +211,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "72b0c744-4a6a-42b1-80c8-50a1e43fe18f"
   ]
 }
