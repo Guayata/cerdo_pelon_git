@@ -39,7 +39,7 @@
         "image_mobile": "shopify:\/\/shop_images\/Grupo_148.png",
         "image_overlay_opacity": 20,
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
