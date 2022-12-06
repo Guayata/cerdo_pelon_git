@@ -1,12 +1,302 @@
+<style>
+   .box {
+      width: {{ section.settings.card-width}}px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 15px;
+   }
+   .slide-img {
+      height: 450px;
+      position: relative;
+   }
+   .slide-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-sizing: border-box;
+   }
+   .detail-box {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      background-color: {{ section.settings.detail-box }};
+   }
+   .type {
+      display: flex;
+      flex-direction: column;
+   }
+   .type a {
+      color: #222222;
+      margin: 5px 0px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      padding-right: 8px;
+   }
+   .type span {
+      color: rgba(26, 26, 26, 0.5);
+   }
+   .price {
+      color: #333333;
+      font-weight: 600;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+   }
+   .overlay {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background-color: {{ section.settings.color_bg--overlay | color_modify: 'alpha', 0.6}};
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .buy-btn {
+      width: 160px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFFFFF;
+      color: #252525;
+      font-weight: 700;
+      letter-spacing: 1px;
+      border-radius: {{section.settings.buybtn-radius}}px;
+      box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+   }
+   .buy-btn:hover {
+      color: #FFFFFF;
+      background-color: {{ section.settings.color_bg--buyBtn }};
+      transition: all ease 0.3s;
+   }
+   .overlay {
+      visibility: hidden;
+   }
+   .slide-img:hover .overlay {
+      visibility: visible;
+      animation: fade 0.5s;
+   }
+   @keyframes fade {
+      0% {
+         opacity: 0;
+      }
+      100% {
+         opacity: 1;
+      }
+   }
+   :focus {
+      outline: none !important;
+   }
+   .slick-dots li button::before {
+      font-size: 22px !important;
+   }
+   span.icon.icon-arrow-left.slick-arrow,
+   span.icon.icon-arrow-right.slick-arrow {
+      display: none !important;
+   }
+   ul.slick-dots {
+      display: none !important;
+   }
+   @media screen and (max-width: 479px) {
+      /* start of phone styles */
+      .box {
+         width: 265px;
+      }
+      .type a {
+         font-size: 16px;
+      }
+      .type span {
+         font-size: 16px;
+      }
+      .detail-box {
+         padding: 10px !important;
+      }
+   }
+</style>
+
+{%- if section.settings.arrows -%}
+<style>
+   span.icon.icon-arrow-left.slick-arrow,
+   span.icon.icon-arrow-right.slick-arrow {
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      cursor: pointer;
+      display: inline !important;
+   }
+   span.icon.icon-arrow-left.slick-arrow {
+      left: -22px;
+   }
+   span.icon.icon-arrow-right.slick-arrow {
+      right: -22px;
+   }
+   @media screen and (max-width: 479px) {
+      /* start of phone styles */
+      span.icon.icon-arrow-left.slick-arrow,
+      span.icon.icon-arrow-right.slick-arrow {
+         display: none !important;
+      }
+   }
+</style>
+{%- endif -%}
+
+{%- if section.settings.dots -%}
+<style>
+   ul.slick-dots {
+      display: block !important;
+   }
+</style>
+{%- endif -%}
+
+{%- if section.settings.enable -%}
+<div class="index-section">
+   {%- if section.settings.show_title -%}
+      <h2 class="section-header__title">
+         {%- for block in section.blocks -%}
+         {{ collections[block.settings.collection].title }}
+         {%- endfor -%}
+      </h2>
+   {%- endif -%}
+
+   <section>
+      <ul class="slick">
+         {%- for block in section.blocks -%}
+         {%- for product in collections[block.settings.collection].products -%}
+         <li class="item-a">
+            <!--box-slider--------------->
+            <div class="box">
+               <!--img-box---------->
+               <div class="slide-img">
+                  <img style="object-fit: contain;" src="{{ product.featured_image.src | img_url: "large" }}"
+                     alt="{{ product.featured_image.alt | escape }}">
+                  <!--overlayer---------->
+                  <div class="overlay">
+                     <!--buy-btn------>
+                     <a href="{{ product.url | within: collection }}"
+                        class="buy-btn">{{ section.settings.btn-title }}</a>
+                  </div>
+               </div>
+               <!--detail-box--------->
+               <div class="detail-box">
+                  <!--type-------->
+                  <div class="type">
+                     <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
+                     <span>{{ product.vendor }}</span>
+                  </div>
+                  <!--price-------->
+                  <a href="{{ product.url | within: collection }}" class="price">{{ product.price | money }}</a>
+               </div>
+            </div>
+         </li>
+         {% else %}
+            The collection is empty!
+         {%- endfor -%}
+         {%- endfor -%}
+      </ul>
+   </section>
+</div>
+{%- endif -%}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+   "name": "Product Carousel",
+   "settings": [
+      {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable",
+      "default": true
+      },
+      {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show title",
+      "default": true
+      },
+      {
+      "type": "checkbox",
+      "id": "arrows",
+      "label": "Show arrows",
+      "default": true
+      },
+      {
+      "type": "checkbox",
+      "id": "dots",
+      "label": "Show Slider Dots",
+      "default": true
+      },
+      {
+      "type": "color",
+      "id": "color_bg--overlay",
+      "label": "Overlay Color",
+      "default": "#000"
+      },
+      {
+      "type": "color",
+      "id": "detail-box",
+      "label": "Detail Box",
+      "default": "#f3f3f3"
+      },
+      {
+      "type": "text",
+      "id": "btn-title",
+      "default": "View More",
+      "label": "Button Title"
+      },
+      {
+      "type": "color",
+      "id": "color_bg--buyBtn",
+      "label": "Button Color on Hover",
+      "default": "#CBD5CC"
+      },
+      {
+      "type": "range",
+      "id": "buybtn-radius",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Radius",
+      "default": 20
+      },
+      {
+      "type": "range",
+      "id": "card-width",
+      "min": 300,
+      "max": 440,
+      "step": 10,
+      "unit": "px",
+      "label": "Card Width",
+      "default": 350
+      }
+   ],
+   "blocks": [
+      {
+         "type": "collection",
+         "name": "Collection",
+         "limit": 1,
+         "settings": [
+            {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+            }
+
+         ]
+      }
+   ],
+   "presets": [
+      {
+      "name": "Products carousel",
+      "category": "Carousel Sections"
+      }
+   ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
