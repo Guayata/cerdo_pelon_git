@@ -204,6 +204,32 @@
         "navigation_color": "",
         "title": "Products slider"
       }
+    },
+    "9a0e8d07-a774-4650-b4ae-38a07a6f41ed": {
+      "type": "products-slider",
+      "blocks": {
+        "446f5f7e-76e3-4d42-9c84-dad23baccf20": {
+          "type": "collection",
+          "settings": {
+            "collection": "products"
+          }
+        }
+      },
+      "block_order": [
+        "446f5f7e-76e3-4d42-9c84-dad23baccf20"
+      ],
+      "settings": {
+        "enable": true,
+        "show_title": true,
+        "arrows": true,
+        "dots": true,
+        "color_bg--overlay": "#000",
+        "detail-box": "#f3f3f3",
+        "btn-title": "View More",
+        "color_bg--buyBtn": "#CBD5CC",
+        "buybtn-radius": 20,
+        "card-width": 350
+      }
     }
   },
   "order": [
@@ -212,6 +238,7 @@
     "featured_collection",
     "collage",
     "multicolumn",
-    "72b0c744-4a6a-42b1-80c8-50a1e43fe18f"
+    "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
+    "9a0e8d07-a774-4650-b4ae-38a07a6f41ed"
   ]
 }
