@@ -395,8 +395,12 @@
   }
 }
 
-.banner__heading {
-  margin-bottom: 0;
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(SnellRoundhand.ttc);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .banner__box .banner__heading + * {
@@ -426,6 +430,12 @@
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
     min-width: 22rem;
+  }
+
+  .banner__heading {
+    margin-bottom: 0;
+    font-family: 'Snell Roundhand';
+    font-size: 45px;
   }
 
   .banner--content-align-right .banner__buttons--multiple {
