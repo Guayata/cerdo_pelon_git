@@ -881,6 +881,9 @@
         "image_2": {
           "label": "Segunda imagen"
         },
+        "image_mobile": {
+          "label": "Segunda imagen"
+        },
         "color_scheme": {
           "info": "Visible cuando se muestre el contenedor."
         },
