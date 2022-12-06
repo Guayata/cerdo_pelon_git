@@ -113,15 +113,15 @@
       ],
       "settings": {
         "enable": true,
-        "show_title": true,
-        "arrows": true,
-        "dots": true,
-        "color_bg--overlay": "#000",
+        "show_title": false,
+        "arrows": false,
+        "dots": false,
+        "color_bg--overlay": "#000000",
         "detail-box": "#f3f3f3",
         "btn-title": "View More",
-        "color_bg--buyBtn": "#CBD5CC",
+        "color_bg--buyBtn": "#cbd5cc",
         "buybtn-radius": 14,
-        "card-width": 400
+        "card-width": 300
       }
     }
   },
