@@ -57,3 +57,57 @@
         ]
     });
 </script>
+{% schema %}
+  {
+    "name": "Collection slider",
+    "settings": [
+      {
+        "type": "range",
+        "id": "navigation_amount",
+        "min": 2,
+        "max": 4,
+        "step": 1,
+        "default": 3,
+        "label": "Change the number of cards in view"
+      },
+      {
+        "type": "color",
+        "id": "navigation_color",
+        "label": "Change color of the pagination|navigation|scrollbar"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Products slider",
+        "label": "t:sections.featured-collection.settings.title.label"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "default": "Products slider",
+        "label": "t:sections.featured-collection.settings.subtitle.label"
+      }
+    ] ,
+    "blocks": [
+      {
+         "type": "collection",
+         "name": "Collection",
+         "limit": 1,
+         "settings": [
+            {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+            }
+
+         ]
+      }
+   ],
+    "presets": [
+      {
+        "name": "Product slider",
+        "category":"Custom"
+      }
+    ]
+  }
+  {% endschema %}
