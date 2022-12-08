@@ -10,7 +10,7 @@
   }
   .slick-active{
     width: 299px;
-    height: 500px;
+      height: 500px;
     padding: 25px;
   }
   .card-img-top {
@@ -22,28 +22,28 @@
 </style>
 <div class="dawn-product-slider mx-auto">
   {% for block in section.blocks %}
-  {%- for product in collections[block.settings.collection].products -%}
-  <div class="carousel-cell">
-      <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
-      <div class="card-body">
-        <div>
-          <h5 class="card-title">{{ product.title }}</h5>
-          <p class="card-text">{{ product.price | money }}</p>
+    {%- for product in collections[block.settings.collection].products -%}
+      <div class="carousel-cell">
+          <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">{{ product.title }}</h5>
+              <p class="card-text">{{ product.price | money }}</p>
+            </div>
+            <a href="#" class="btn btn-primary">Add cart</a>
         </div>
-        <a href="#" class="btn btn-primary">Add cart</a>
-    </div>
-  </div>
-      {% endfor %}
+      </div>
+    {% endfor %}
   {% endfor %}
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 <script>
     $('.dawn-product-slider').slick({
-      infinite: false,
+      infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
       autoplaySpeed: 2000,
         responsive: [
         {
