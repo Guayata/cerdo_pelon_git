@@ -7,7 +7,7 @@
   {% for block in section.blocks %}
   {%- for product in collections[block.settings.collection].products -%}
   <div class="carousel-cell row">
-    <div class="card col-6 col-md-4">
+    <div class="slick-slide col-6 col-md-4">
       <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
       <div class="card-body">
         <h5 class="card-title">{{ product.title }}</h5>
