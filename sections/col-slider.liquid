@@ -1,9 +1,9 @@
 <style>
-  .slick-slide .carousel-cell{
+  .slick-slide .carousel-cell .slick-active{
     width: 207px;
   }
 </style>
-<div class="dawn-product-slider mx-auto" style="width: 1000px;">
+<div class="dawn-product-slider mx-auto" style="width: 1400px;">
   {% for block in section.blocks %}
   {%- for product in collections[block.settings.collection].products -%}
   <div class="carousel-cell row">
