@@ -9,7 +9,7 @@
                 <p class="price">{{ product.price | money }}</p>
             </a>
         </div> -->
-        <div class="card" style="width: 18rem;">
+        <div class="carousel-cell card">
           <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
           <div class="card-body">
             <h5 class="card-title">{{ product.title }}</h5>
