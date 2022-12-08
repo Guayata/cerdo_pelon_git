@@ -3,7 +3,7 @@
     width: 207px;
   }
 </style>
-<div class="dawn-product-slider center" style="width: 1000px;">
+<div class="dawn-product-slider mx-auto" style="width: 1000px;">
   {% for block in section.blocks %}
   {%- for product in collections[block.settings.collection].products -%}
   <div class="carousel-cell row">
