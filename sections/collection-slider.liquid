@@ -1,15 +1,10 @@
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
 <div class="dawn-product-slider">
     <div class="carousel">
         {% for block in section.blocks %}
         {%- for product in collections[block.settings.collection].products -%}
         <div class="carousel-cell">
             <a href="{{ product.url }}">
-                <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" />
+<!--                 <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" /> -->
                 <p class="title">{{ product.title }}</p>
                 <p class="price">{{ product.price | money }}</p>
             </a>
