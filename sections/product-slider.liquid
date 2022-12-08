@@ -10,12 +10,13 @@
         width: 100%;
     }
     .dawn-product-slider .carousel-cell {
-      background: #fff;
-      border-radius: 16px;
+      background: #F7F3ED;
+      border: 2px solid #ACA9A0;
       margin: auto;
       padding: 18px;
       margin: 12px;
-      width: calc(32% - 10px);
+      width: 229;
+      height: 359;
     }
     .product-btn {
         width: 100%;
@@ -32,13 +33,21 @@
     }
     .dawn-product-slider .flickity-button.flickity-prev-next-button.previous, 
     .dawn-product-slider .flickity-button.flickity-prev-next-button.next {
-        background: red;
-      color: white;
+        background: transparent;
+        color: #ACA9A0;
+        border: 1px solid #ACA9A0;
     }
     .dawn-product-slider:focus-visible, .dawn-product-slider .carousel:focus-visible {
          outline: unset;
       outline-offset: unset;
       box-shadow: unset; 
+    }
+    /* position outside */
+    .flickity-prev-next-button.previous {
+      left: -40px;
+    }
+    .flickity-prev-next-button.next {
+      right: -40px;
     }
     @media only screen and ( max-width: 767px ) {
       .dawn-product-slider .carousel-cell {
@@ -55,7 +64,11 @@
   <!-- CSS -->
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <!-- JavaScript -->
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">
+    new Flickity( '.myFlickityCarousel', {
+      arrowShape: 'M62.5 0l3.6 2.1L38.7 50l27.4 47.9-3.6 2.1-28.6-50L62.5 0z'
+    });
+  </script>
   {% comment %} <div class="center collection page-width">
     <div>
       <h2>{{ section.settings.title | escape }}</h2>
@@ -89,7 +102,8 @@
           }
           {% elsif nav_range == 3 %}
           .dawn-product-slider .carousel-cell {
-            width: calc(32% - 10px);
+            width: calc(24% - 10px);
+            height: 350px;
           }
           {% elsif nav_range == 4 %}
           .dawn-product-slider .carousel-cell {
@@ -100,8 +114,14 @@
       .flickity-page-dots .dot {
           background: {{ section.settings.navigation_color }};
       }
+      .flickity-button.flickity-prev-next-button .next {
+        background: transparent;
+      }
       .flickity-button-icon {
-          color: {{ section.settings.navigation_color }};
+        fill: #ACA9A0;
+      }
+      .flickity-slider{
+        transform:translateX(20.53%);
       }
   {% endstyle %}
   <script>
@@ -112,6 +132,7 @@
        lazyLoad: 2,
        wrapAround: true,
        pageDots: false,
+       arrowShape: 'M62.5 0l3.6 2.1L38.7 50l27.4 47.9-3.6 2.1-28.6-50L62.5 0z'
      });
      {% if request.design_mode %}
      document.addEventListener("shopify:section:load", function(event) {
@@ -122,6 +143,7 @@
          lazyLoad: 2,
          wrapAround: true,
          pageDots: false,
+         arrowShape: 'M62.5 0l3.6 2.1L38.7 50l27.4 47.9-3.6 2.1-28.6-50L62.5 0z'
        });
      });
      {% endif %}
