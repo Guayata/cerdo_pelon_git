@@ -21,6 +21,26 @@
     display: block;
     margin: 0 auto;
   }
+  .slick-arrow{
+    width: 28px;
+    height: 56px;
+    &:before{
+      content: none;
+    }
+    &.slick-prev{
+      left: 25px;
+      z-index: 9;
+      background: url(//cdn.shopify.com/s/files/1/0580/1695/6589/t/20/assets/arrow-left_small.png?v=174003532477101449721669316914);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &.slick-next{
+      right: 25px;
+      background: url(//cdn.shopify.com/s/files/1/0580/1695/6589/t/20/assets/arrow-right_small.png?v=138669374947722133361669316915);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
 </style>
 
 <div class="dawn-product-slider mx-auto">
