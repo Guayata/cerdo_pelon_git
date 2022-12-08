@@ -19,8 +19,10 @@
   <div class="carousel-cell">
       <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
       <div class="card-body">
-        <h5 class="card-title">{{ product.title }}</h5>
-        <p class="card-text">{{ product.price | money }}</p>
+        <div>
+          <h5 class="card-title">{{ product.title }}</h5>
+          <p class="card-text">{{ product.price | money }}</p>
+        </div>
         <a href="#" class="btn btn-primary">Add cart</a>
     </div>
   </div>
