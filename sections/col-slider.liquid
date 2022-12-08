@@ -1,5 +1,5 @@
 <div class="dawn-product-slider">
-    <div class="carousel">
+<!--     <div class="carousel"> -->
         {% for block in section.blocks %}
         {%- for product in collections[block.settings.collection].products -%}
         <div class="carousel-cell">
@@ -11,12 +11,12 @@
         </div>
             {% endfor %}
         {% endfor %}
-    </div>
+<!--     </div> -->
     <!--- Coded by keiwords.com --->
 </div>
 
 <script>
-    $('.carousel').slick({
+    $('.dawn-product-slider').slick({
         dots: true,
         infinite: false,
         speed: 300,
