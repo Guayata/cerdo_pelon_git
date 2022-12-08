@@ -2,12 +2,20 @@
 <!--     <div class="carousel"> -->
         {% for block in section.blocks %}
         {%- for product in collections[block.settings.collection].products -%}
-        <div class="carousel-cell">
+<!--         <div class="carousel-cell">
             <a href="{{ product.url }}">
 <!--                 <img data-flickity-lazyload="{{ product.featured_image | img_url: 'master' }}"  border="0" /> -->
                 <p class="title">{{ product.title }}</p>
                 <p class="price">{{ product.price | money }}</p>
             </a>
+        </div> -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.title }}</h5>
+            <p class="card-text">{{ product.price | money }}</p>
+            <a href="#" class="btn btn-primary">Add cart</a>
+          </div>
         </div>
             {% endfor %}
         {% endfor %}
