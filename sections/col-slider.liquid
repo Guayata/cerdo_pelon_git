@@ -1,11 +1,11 @@
 <style>
   .dawn-product-slider{
        height: 400px;
-       width: 80%;
+       width: 75%;
     }
     .carousel-cell{
       width: 299px;
-      height: 359px;
+      height: 376px;
       border: 2px solid rgba(128,128,128, .3);
     }
   .slick-slide, .slick-current, .slick-active {
@@ -21,25 +21,33 @@
     display: block;
     margin: 0 auto;
   }
-  .slick-arrow{
-    width: 28px;
-    height: 56px;
-    &:before{
-      content: none;
-    }
-    &.slick-prev{
-      left: 25px;
-      z-index: 9;
-      background: url(//cdn.shopify.com/s/files/1/0580/1695/6589/t/20/assets/arrow-left_small.png?v=174003532477101449721669316914);
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    &.slick-next{
-      right: 25px;
-      background: url(//cdn.shopify.com/s/files/1/0580/1695/6589/t/20/assets/arrow-right_small.png?v=138669374947722133361669316915);
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
+  .slick-next{
+    width: 44px;
+    height: 44px;
+    padding-left: 10px;
+  }
+  .slick-prev{
+    width: 44px;
+    height: 44px;
+    padding-right: 10px;
+  }
+  .card-name {
+    font-family: 'Junicode Two Beta';
+    text-align: center;
+    margin-top: 0.75rem;
+    border-top: 1px solid rgba(128,128,128, .2);
+    border-right: 1px solid rgba(128,128,128, .2);
+    border-bottom: 1px solid rgba(128,128,128, .2);
+  }
+  .card-price{
+    font-family: 'Junicode Two Beta';
+    text-align: center;
+    margin-top: 0.75rem;
+    border-top: 1px solid rgba(128,128,128, .2);
+    border-bottom: 1px solid rgba(128,128,128, .2);
+  }
+  .card-amount, .card-gr {
+    border-right: 1px solid rgba(128,128,128, .2);
   }
 </style>
 
@@ -49,11 +57,25 @@
       <div class="carousel-cell">
           <img class="card-img-top" src="{{ product.featured_image.src | img_url: "large" }}" alt="{{ product.featured_image.alt | escape }}">
           <div class="card-body">
-            <div>
-              <h5 class="card-title">{{ product.title }}</h5>
-              <p class="card-text">{{ product.price | money }}</p>
+            <div class="row">
+              <div class="col-8 card-name">
+                <h5 class="card-title" style="margin-top:1rem;font-size: 17px;">{{ product.title }}</h5>
+              </div>
+              <div class="col-4 card-price">
+                <p class="card-text" style="margin-top:1rem;font-size: 17px;">{{ product.price | money }}</p>
+              </div>
             </div>
-            <a href="#" class="btn btn-primary">Add cart</a>
+            <div class="row">
+              <div class="col-4 card-amount">
+                <a href="#" class="btn btn-primary" style="font-size: 17px;">Amount</a>
+              </div>
+              <div class="col-4 card-gr">
+                <p class="card-text" style="margin-top:1rem;font-size: 17px;">{{ product.price | money }}</p>
+              </div>
+              <div class="col-4 card-cart">
+                <a href="#" class="btn btn-primary" style="font-size: 17px;">Add cart</a>
+              </div>
+            </div>
         </div>
       </div>
     {% endfor %}
@@ -68,8 +90,8 @@
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      prevArrow: '<button class="slick-prev"> prev</button>',
-      nextArrow: '<button class="slick-next"> next</button>',
+      prevArrow: '<svg class="slick-prev" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 44.567 44.567"><g id="Grupo_95" data-name="Grupo 95" ><line id="Línea_35" data-name="Línea 35" x2="25.801" transform="translate(11.397 21.909)" fill="none" stroke="#ACA9A0" stroke-width="1"/><path id="Trazado_408" data-name="Trazado 408" d="M174.36,3951l-14-10.04s14.386-10.8,14.386-11.094" transform="translate(-149.448 -3919.048)" fill="none" stroke="#ACA9A0" stroke-width="1"/><circle id="Elipse_105" data-name="Elipse 105" cx="21.784" cy="21.784" r="21.784" fill="none" stroke="#ACA9A0" stroke-width="1"/></g></svg>',
+      nextArrow: '<svg class="slick-next" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 44.567 44.567"><g id="Grupo_94" data-name="Grupo 94" transform="translate(44.067 44.067) rotate(180)"><line id="Línea_35" data-name="Línea 35" x2="25.801" transform="translate(11.397 21.909)" fill="none" stroke="#ACA9A0" stroke-width="1"/><path id="Trazado_408" data-name="Trazado 408" d="M174.36,3951l-14-10.04s14.386-10.8,14.386-11.094" transform="translate(-149.448 -3919.048)" fill="none" stroke="#ACA9A0" stroke-width="1"/><circle id="Elipse_105" data-name="Elipse 105" cx="21.784" cy="21.784" r="21.784" fill="none" stroke="#ACA9A0" stroke-width="1"/></g></svg>',
       arrows: true,
         responsive: [
         {
