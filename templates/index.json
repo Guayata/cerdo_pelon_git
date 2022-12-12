@@ -119,25 +119,12 @@
         "title": "Collection slider",
         "subtitle": "Collection slider"
       }
-    },
-    "1807de2b-9083-4991-a00c-cb23ac085952": {
-      "type": "cintillo-text-three-circle",
-      "settings": {
-      }
-    },
-    "6f5e4dfd-077b-4fbe-b198-3b2034e91fa9": {
-      "type": "two-column-slider",
-      "settings": {
-        "title": "Cerdo pelón mexicano, una especie única en la gastronomía nacional Este animal de origen mexicano encontró libertad y una nueva vida en un rancho de Morelos."
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
-    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a",
-    "1807de2b-9083-4991-a00c-cb23ac085952",
-    "6f5e4dfd-077b-4fbe-b198-3b2034e91fa9"
+    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a"
   ]
 }
