@@ -1,11 +1,12 @@
 {{ 'footer-cerdo.scss.css' | asset_url | stylesheet_tag }}
 <div
-  class="container-fluid foo">
+  class="container-fluid foo"
+>
   <div class="content-top">
     <div class="content-get spac">
       <p class="cur">Get updates &</p>
       <p class="juni">STAY CONECTED</p>
-      <input type="email" placeholder="Escribe tu e-mail" size="11" required/>
+      <input type="email" placeholder="Escribe tu e-mail" size="11" required>
       <br class="d-block d-sm-block d-md-none">
       <button type="button">ENVIAR</button>
     </div>
@@ -22,38 +23,31 @@
       </div>
     </div>
   </div>
- 
+
   <div class="bottom-link">
-      <div class="d-block d-sm-block d-md-none"> 
-        <img src="{{ 'Logo2-Blanco.png' | asset_url }}" class="logo-2-blanco" />
-      </div>
-    <div class="redes-links">
-    <a href="{{ section.settings.email }}">EMAIL &nbsp &nbsp &nbsp &nbsp </a>
-    <a href="{{ section.settings.instagram }}">INSTAGRAM &nbsp &nbsp &nbsp &nbsp </a>
-    <a href="{{ section.settings.youtube }}">YOUTUBE &nbsp &nbsp &nbsp &nbsp</a>
-    <a href="{{ section.settings.linkedin }}">LINKEDIN &nbsp &nbsp &nbsp &nbsp</a>
-      </div>
-    <img class="d-none d-sm-none d-md-block logo-2-blanco" src="{{ 'Logo2-Blanco.png' | asset_url }}"/>
-     <a href="{{ section.settings.undertk }}" class="d-none d-sm-none d-md-block">COPYRIGHT © 2022 UNDETK STUDIO. ALL RIGHTS RESERVED.</a>
     <div class="d-block d-sm-block d-md-none">
-      <a href="{{ section.settings.undertk }}"
-      
+      <img src="{{ 'Logo2-Blanco.png' | asset_url }}" class="logo-2-blanco">
+    </div>
+    <div class="redes-links">
+      <a href="{{ section.settings.email }}">EMAIL &nbsp &nbsp &nbsp &nbsp </a>
+      <a href="{{ section.settings.instagram }}">INSTAGRAM &nbsp &nbsp &nbsp &nbsp </a>
+      <a href="{{ section.settings.youtube }}">YOUTUBE &nbsp &nbsp &nbsp &nbsp</a>
+      <a href="{{ section.settings.linkedin }}">LINKEDIN &nbsp &nbsp &nbsp &nbsp</a>
+    </div>
+    <img class="d-none d-sm-none d-md-block logo-2-blanco" src="{{ 'Logo2-Blanco.png' | asset_url }}">
+    <a href="{{ section.settings.undertk }}" class="d-none d-sm-none d-md-block"
       >COPYRIGHT © 2022 UNDETK STUDIO. ALL RIGHTS RESERVED.</a
     >
-  </div></div>
-
- 
-
-    
-   </div>
+    <div class="d-block d-sm-block d-md-none">
+      <a href="{{ section.settings.undertk }}">COPYRIGHT © 2022 UNDETK STUDIO. ALL RIGHTS RESERVED.</a>
+    </div>
   </div>
 </div>
-
-{% schema %} 
-  { 
-    "name": "footer-cerdo", 
-    "class": "footer", 
-    "settings": 
+{% schema %}
+  {
+    "name": "footer-cerdo",
+    "class": "footer",
+    "settings":
     [
         {
 "type": "header",
@@ -97,7 +91,7 @@
     "type": "url",
     "id": "fa",
     "label": "FACTURACIÓN"
-  },  
+  },
         {
 "type": "header",
 "content": "===== Datos botton ======"
@@ -127,13 +121,13 @@
           "id": "undertk",
           "label": "UNDERTK"
         }
-    ], 
-    "presets": 
-    [ 
-      { 
+    ],
+    "presets":
+    [
+      {
         "name": "footer-cerdo",
-        "category": "form" 
-      } 
-    ] 
-  } 
-  {% endschema %}
+        "category": "form"
+      }
+    ]
+  }
+{% endschema %}
