@@ -139,6 +139,14 @@
       "settings": {
         "title": "Cerdo pelón mexicano, una especie única en la gastronomía nacional Este animal de origen mexicano encontró libertad y una nueva vida en un rancho de Morelos."
       }
+    },
+    "f4c71394-dc6f-4dd9-97ba-7f2be07265b2": {
+      "type": "main-revolving-text",
+      "settings": {
+        "title": "Text columns with images",
+        "subtitle": "EL CERDO PELÓN MEXICANO TIENE SU ORIGEN EN 1492",
+        "color_text": "#000"
+      }
     }
   },
   "order": [
@@ -148,6 +156,7 @@
     "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a",
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac",
-    "830cb05f-3c8c-43d2-91c3-5c3e9ca37125"
+    "830cb05f-3c8c-43d2-91c3-5c3e9ca37125",
+    "f4c71394-dc6f-4dd9-97ba-7f2be07265b2"
   ]
 }
