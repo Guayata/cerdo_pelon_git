@@ -1,12 +1,22 @@
-{{ 'cintillo-marquee.scss.css' | asset_url | stylesheet_tag }}
+{{ 'main-revolving-text.css' | asset_url | stylesheet_tag }}
 <div class="container-fluid">
   <div class="row box-cintillo-loop">
-<hr>
-    <marquee behavior="alternate" style="color:{{ section.settings.color_text }} ">{% if section.settings.title != blank %}
-      <p>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}&nbsp</c>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}&nbsp</c>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}&nbsp</c>{{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c></p>
+    <hr>
+    <marquee behavior="alternate" style="color:{{ section.settings.color_text }} ">
+      {%- if section.settings.title != blank %}
+        <p>
+          {{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}&nbsp</c>
+          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>
+            {{- section.settings.subtitle }}&nbsp</c
+          >
+          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>
+            {{- section.settings.subtitle }}&nbsp</c
+          >
+          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>
+        </p>
       {% endif %}
     </marquee>
-<hr>
+    <hr>
   </div>
 </div>
 
