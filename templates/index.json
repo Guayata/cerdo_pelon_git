@@ -147,6 +147,41 @@
         "subtitle": "EL CERDO PELÓN MEXICANO TIENE SU ORIGEN EN 1492",
         "color_text": "#000"
       }
+    },
+    "7aefe7c2-4ff4-4441-915e-b3a204d31c58": {
+      "type": "featured-articles",
+      "settings": {
+        "blog-title": "EL CERDO PELÓN MEXICANO, UNA RAZA ESPAÑOLA.",
+        "blog-subtitle": "description article",
+        "button_label_1": "",
+        "button_link_1": "",
+        "blog-title-2": "EL CERDO PELÓN MEXICANO, UNA RAZA ESPAÑOLA.",
+        "blog-subtitle-2": "description article",
+        "button_label_2": "",
+        "button_link_2": "",
+        "blog-title-3": "EL CERDO PELÓN MEXICANO, UNA RAZA ESPAÑOLA.",
+        "blog-subtitle-3": "description article",
+        "button_label": "",
+        "button_link": "",
+        "button_vermas": "",
+        "button_link_vermas": ""
+      }
+    },
+    "4bba4d9d-6d76-492e-89bd-9fd0504f7f08": {
+      "type": "footer-social-media",
+      "settings": {
+        "ne": "",
+        "jo": "",
+        "en": "",
+        "te": "",
+        "pr": "",
+        "fa": "",
+        "email": "",
+        "instagram": "",
+        "youtube": "",
+        "linkedin": "",
+        "undertk": ""
+      }
     }
   },
   "order": [
@@ -157,6 +192,8 @@
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac",
     "830cb05f-3c8c-43d2-91c3-5c3e9ca37125",
-    "f4c71394-dc6f-4dd9-97ba-7f2be07265b2"
+    "f4c71394-dc6f-4dd9-97ba-7f2be07265b2",
+    "7aefe7c2-4ff4-4441-915e-b3a204d31c58",
+    "4bba4d9d-6d76-492e-89bd-9fd0504f7f08"
   ]
 }
