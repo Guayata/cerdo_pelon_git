@@ -60,6 +60,10 @@ button {
     padding: 2% 0 10% 0;
   }
 }
+
+.stay-connected-send {
+  border: 1px solid #aca9a0;
+}
 input {
   border-top: none !important;
   border-right: none !important;
