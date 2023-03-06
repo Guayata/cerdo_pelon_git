@@ -38,15 +38,17 @@ button {
     width: auto;
   }
 }
-.cur {
-  font-family: Snell Roundhand !important;
-  margin: 0 !important;
+.stay-connected-cursive {
+  text-align: left;
+font: normal normal normal 20px/25px Snell Roundhand;
+letter-spacing: 0px;
+color: #2D2A29;
 
   @media (max-width: 576px) {
     font-size: 30px;
   }
 }
-.juni {
+.stay-connected-juni {
   font-family: Junicode Medium !important;
   margin: 0 !important;
   line-height: 5px;
