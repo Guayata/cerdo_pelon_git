@@ -79,13 +79,6 @@ input {
   flex-direction: column;
   justify-content: space-evenly;
 }
-a {
-  font-family: Helvetica !important;
-  margin: 10px 0 !important;
-  font-size: 13px !important;
-  text-decoration: none;
-  color: #2d2a29;
-}
 
 .bottom-link {
   margin-bottom: 3%;
