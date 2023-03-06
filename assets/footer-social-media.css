@@ -43,7 +43,7 @@ button {
   font: normal normal normal 20px/25px Snell Roundhand;
   letter-spacing: 0px;
   color: #2d2a29;
-
+  margin-bottom: 0px;
   @media (max-width: 576px) {
     font-size: 30px;
   }
