@@ -2,18 +2,20 @@
   hr {
     border: 1px solid #aca9a0;
   }
-  .cursive {
-    font-family: "Helvetica Regular";
-    margin: 15px 10px 30px;
-    letter-spacing: 2.2px;
-    font-size: 11px;
-  }
-  .plain-text {
-    text-align: center;
-    font: normal normal normal 11px/13px Helvetica;
-    letter-spacing: 2.2px;
-    color: #2D2A29;
-    text-transform: uppercase;
-    opacity: 1;
-  }
+}
+
+.cursive {
+  font-family: "Helvetica Regular";
+  margin: 15px 10px 30px;
+  letter-spacing: 2.2px;
+  font-size: 11px;
+}
+
+.plain-text {
+  text-align: center;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 2.2px;
+  color: #2d2a29;
+  text-transform: uppercase;
+  opacity: 1;
 }
