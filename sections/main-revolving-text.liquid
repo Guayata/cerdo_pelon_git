@@ -4,16 +4,8 @@
     <hr>
     <marquee behavior="alternate" style="color:{{ section.settings.color_text }} ">
       {%- if section.settings.title != blank %}
-        <p>
-          {{ section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}&nbsp</c>
-          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>
-            {{- section.settings.subtitle }}&nbsp</c
-          >
-          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>{{ section.settings.title }}&nbsp<c>
-            {{- section.settings.subtitle }}&nbsp</c
-          >
-          {{- section.settings.title }}&nbsp<c>{{ section.settings.subtitle }}</c>
-        </p>
+        <p class="cursive"> {{ section.settings.cursive }}&nbsp</p>
+        <p class="plain-text"> {{ section.settings.plain_text }}&nbsp</p>
       {% endif %}
     </marquee>
     <hr>
