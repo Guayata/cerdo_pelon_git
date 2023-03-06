@@ -44,9 +44,6 @@ d {
 
 .imagee {
   width: 100%;
-  img {
-    width: 100%;
-  }
 }
 .exter {
   display: flex;
