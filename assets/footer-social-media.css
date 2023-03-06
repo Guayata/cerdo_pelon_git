@@ -121,4 +121,5 @@ input {
   font: normal normal normal 9px/11px Helvetica;
   letter-spacing: 1.8px;
   color: #2d2a29;
+  text-transform: uppercase;
 }
