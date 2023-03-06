@@ -63,6 +63,7 @@ button {
 
 .stay-connected-send {
   border: 1px solid #aca9a0;
+  background-color: #fafafa;
 }
 input {
   border-top: none !important;
