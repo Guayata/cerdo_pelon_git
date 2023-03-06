@@ -40,18 +40,20 @@ button {
 }
 .stay-connected-cursive {
   text-align: left;
-font: normal normal normal 20px/25px Snell Roundhand;
-letter-spacing: 0px;
-color: #2D2A29;
+  font: normal normal normal 20px/25px Snell Roundhand;
+  letter-spacing: 0px;
+  color: #2d2a29;
 
   @media (max-width: 576px) {
     font-size: 30px;
   }
 }
 .stay-connected-juni {
-  font-family: Junicode Medium !important;
-  margin: 0 !important;
-  line-height: 5px;
+  text-align: left;
+  font: normal normal medium 20px/34px Junicode Two Beta;
+  letter-spacing: 0px;
+  color: #2d2a29;
+  text-transform: uppercase;
   @media (max-width: 576px) {
     font-size: 27px;
     padding: 2% 0 10% 0;
