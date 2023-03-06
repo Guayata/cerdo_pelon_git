@@ -119,6 +119,8 @@ input {
   font-size: 9px;
   letter-spacing: 1.8px;
   color: #f6f3ee;
+  margin-left: 10px;
+  margin-right: 10px;
   text-transform: uppercase;
   opacity: 1;
 }
