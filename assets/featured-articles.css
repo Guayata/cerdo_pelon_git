@@ -51,7 +51,7 @@ d {
     margin: 10%;
   }
 }
-a {
+.article-link {
   color: #2d2a29;
   text-decoration: none;
   font-family: "Helvetica";
