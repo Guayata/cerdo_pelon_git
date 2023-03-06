@@ -69,14 +69,14 @@ input {
   font-family: Helvetica !important;
 }
 
-/* .content-his {
+.content-his {
   font-family: Helvetica;
   display: flex;
   justify-content: space-around;
   @media (max-width: 576px) {
     flex-direction: column;
   }
-} */
+}
 .column {
   display: flex;
   flex-direction: column;
