@@ -104,9 +104,10 @@ input {
     margin-bottom: -5%;
   }
 }
-.redes-links a {
+.social-media-link {
   text-align: left;
-  font: normal normal normal 9px/11px Helvetica;
+  font-family: "Helvetica";
+  font-size: 36px;
   letter-spacing: 1.8px;
   color: #f6f3ee;
   text-transform: uppercase;
