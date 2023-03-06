@@ -51,12 +51,12 @@ button {
 .stay-connected-juni {
   text-align: left;
   font-family: "Junicode Two Beta";
-  line-height: 34px;
+  /*   line-height: 34px; */
   font-size: 20px;
   letter-spacing: 0px;
   color: #2d2a29;
   text-transform: uppercase;
-  @media (max-width: 576px) {
+  margin-top @media (max-width: 576px) {
     font-size: 27px;
     padding: 2% 0 10% 0;
   }
