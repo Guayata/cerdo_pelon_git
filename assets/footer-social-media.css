@@ -15,7 +15,7 @@
   background: #fafafa;
   width: 80%;
   display: flex;
-  /*   padding: 15px 3%; */
+  padding: 15px 3%;
   height: auto;
   margin-top: -40px;
   @media (max-width: 576px) {
