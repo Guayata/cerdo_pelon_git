@@ -112,3 +112,9 @@ input {
   text-transform: uppercase;
   opacity: 1;
 }
+.stay-connected-link {
+  text-align: left;
+  font: normal normal normal 9px/11px Helvetica;
+  letter-spacing: 1.8px;
+  color: #2d2a29;
+}
