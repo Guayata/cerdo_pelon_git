@@ -7,9 +7,26 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "b999743a-926a-4110-a7e5-11943fdcec4b": {
+      "type": "footer-social-media",
+      "settings": {
+        "ne": "",
+        "jo": "",
+        "en": "",
+        "te": "",
+        "pr": "",
+        "fa": "",
+        "email": "",
+        "instagram": "",
+        "youtube": "",
+        "linkedin": "",
+        "undertk": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b999743a-926a-4110-a7e5-11943fdcec4b"
   ]
 }
