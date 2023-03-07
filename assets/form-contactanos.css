@@ -147,7 +147,7 @@
   border-bottom: 0.25px solid #f7f3ed;
 }
 .globo-form-app .globo-form-control:has(label:not([for$="-textarea"])) input {
-  padding: 0px;
+  padding: 0px !important;
 }
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
   margin-left: 50%;
