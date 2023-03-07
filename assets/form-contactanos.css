@@ -127,7 +127,7 @@
   margin-top: 15px !important;
 }
 
-.globo-form-app .globo-form-control:has(label[for$="-text"]) {
+/* .globo-form-app .globo-form-control:has(label[for$="-text"]) {
   position: absolute;
 }
 .globo-form-app .globo-form-control:has(label[for$="-email"]) {
@@ -138,3 +138,7 @@
   position: absolute;
   margin-top: 100px;
 }
+.globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
+  position: absolute;
+  margin-top: 100px;
+} */
