@@ -139,4 +139,5 @@
   margin-top: 50px;
 }
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
+  margin-left: 50%;
 }
