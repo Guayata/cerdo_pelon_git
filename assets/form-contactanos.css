@@ -126,3 +126,15 @@
   margin-bottom: 25px;
   margin-top: 15px !important;
 }
+
+.globo-form-app .globo-form-control:has(label[for$="-text"]) {
+  position: absolute;
+}
+.globo-form-app .globo-form-control:has(label[for$="-email"]) {
+  position: absolute;
+  margin-top: 50px;
+}
+.globo-form-app .globo-form-control:has(label[for$="-phone"]) {
+  position: absolute;
+  margin-top: 50px;
+}
