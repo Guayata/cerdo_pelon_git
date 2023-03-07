@@ -136,5 +136,5 @@
 }
 .globo-form-app .globo-form-control:has(label[for$="-phone"]) {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 100px;
 }
