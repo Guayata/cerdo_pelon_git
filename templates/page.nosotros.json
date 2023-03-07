@@ -8,6 +8,45 @@
         "padding_bottom": 28
       }
     },
+    "81812bdc-9d7d-4de6-ad82-cfc157239cce": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¿Por qué Jamón pata negra<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TIENE UN SABOR TAN DISTINTIVO?<\/p>"
+          }
+        },
+        "19e99220-3897-43db-831f-0a98ec77b4ea": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-0",
+        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-1",
+        "19e99220-3897-43db-831f-0a98ec77b4ea"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "b999743a-926a-4110-a7e5-11943fdcec4b": {
       "type": "footer-social-media",
       "settings": {
@@ -27,6 +66,7 @@
   },
   "order": [
     "main",
+    "81812bdc-9d7d-4de6-ad82-cfc157239cce",
     "b999743a-926a-4110-a7e5-11943fdcec4b"
   ]
 }
