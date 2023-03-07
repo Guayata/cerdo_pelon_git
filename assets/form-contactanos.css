@@ -1,0 +1,128 @@
+.formu {
+  margin: 3% 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .formu {
+    margin: 3% 0% 10%;
+  }
+}
+.formu .container-formu {
+  background: #ada99f;
+  color: #f7f3ed;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 576px) {
+  .formu .container-formu {
+    flex-direction: column;
+  }
+}
+.formu .container-formu .content-one {
+  width: 40%;
+}
+@media (max-width: 576px) {
+  .formu .container-formu .content-one {
+    width: auto;
+  }
+}
+.formu .container-formu .content-one .content-texto {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 20%;
+}
+@media (max-width: 576px) {
+  .formu .container-formu .content-one .content-texto {
+    margin: 5% 9% 10%;
+  }
+}
+.formu .container-formu .content-one .content-texto pa {
+  font-family: Junicode Two Beta;
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .formu .container-formu .content-one .content-texto pa {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+.formu .container-formu .content-one .content-texto cu {
+  font-family: Snell Roundhand;
+  font-size: 20px;
+  margin: 0px 0 -10px 0;
+}
+@media (max-width: 576px) {
+  .formu .container-formu .content-one .content-texto cu {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 10%;
+  }
+}
+.formu .container-formu .content-one .content-texto spa {
+  font-family: Helvetica;
+  font-size: 13px;
+}
+.formu .container-formu .content-one .puerco-oreja {
+  width: 200px;
+  margin: 0 15px;
+}
+.formu .container-formu .content-two {
+  width: 60%;
+  padding: 0% 0;
+}
+@media (max-width: 576px) {
+  .formu .container-formu .content-two {
+    width: 100%;
+    padding: 0% 10%;
+  }
+}
+@media (max-width: 576px) {
+  .puerco-abajo {
+    width: 180px;
+    height: 54px;
+    margin-left: 30%;
+  }
+}
+.globo-form-id-89615 .globo-form-app .globo-heading {
+  color: #f7f3ed !important;
+  font-family: Junicode Two Beta !important;
+  margin: 0px !important;
+  font-size: 20px;
+  font-weight: 100;
+}
+.globo-form-app .globo-form-control input {
+  background: none;
+  color: #f6f3ee;
+  border-bottom: 1px solid #f6f3ee;
+}
+.globo-form-app .globo-form-control textarea {
+  background: none;
+  color: #f6f3ee;
+  border-bottom: 1px solid #f6f3ee;
+}
+.globo-form-app .globo-form-control {
+  height: 21px;
+}
+.globo-form-app p {
+  color: #ada99f !important;
+}
+.globo-form-app a {
+  color: #ada99f !important;
+}
+.globo-form-id-89615 .globo-form-app .footer button.submit {
+  border: 1px solid #f6f3ee;
+  color: #f6f3ee !important;
+}
+.globo-form-app {
+  margin: 0% auto !important;
+}
+.globo-form-app .message + .footer {
+  margin-top: -5px !important;
+}
+.globo-form-app .header {
+  margin-bottom: 25px;
+  margin-top: 15px !important;
+}
