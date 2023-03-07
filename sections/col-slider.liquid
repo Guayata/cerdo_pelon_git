@@ -70,19 +70,18 @@
             </div>
           </div>
           <div class="row">
-            <!--
-              <div class="col-4 card-amount">
-                <div class="product__quantity product__quantity--{{ settings.variant_type }}">
-                  <label for="Quantity-{{ section_id }}">{{ 'products.product.quantity' | t }}</label>
-                  {%- render 'quantity-input', id: section_id, qty: 1, min: 1 -%}
-                </div>
+            <div class="col-4 card-amount">
+              <div class="product__quantity product__quantity--{{ settings.variant_type }}">
+                <label for="Quantity-{{ section_id }}">{{ 'products.product.quantity' | t }}</label>
+                {%- render 'quantity-input', id: section_id, qty: 1, min: 1 -%}
               </div>
-              <div class="col-4 card-gr">
-                <p class="card-text" style="margin-top:1rem;font-size: 17px;">{{ product.price | money }}</p>
-              </div>
-            -->
+            </div>
+            <div class="col-4 card-gr">
+              <p class="card-text" style="margin-top:1rem;font-size: 17px;">{{ product.price | money }}</p>
+            </div>
+
             <div class="col-4 card-cart">
-              <a href="#" class="btn btn-primary" style="font-size: 17px;" hidden="true">Add cart</a>
+              <a href="#" class="btn btn-primary" style="font-size: 17px;">Add cart</a>
             </div>
           </div>
         </div>
@@ -94,7 +93,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 <script>
   $('.dawn-product-slider').slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
