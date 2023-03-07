@@ -208,6 +208,9 @@
       },
       "header-nosotros": {
         "type": "header-nosotros",
+        "custom_css": [
+          ".header__icons {display: none;}"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "transparent_header": true,
