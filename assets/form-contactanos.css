@@ -150,6 +150,7 @@
   padding: 0px;
   height: auto;
   font-size: 11px;
+  color: #f6f3ee;
 }
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
   margin-left: 50%;
