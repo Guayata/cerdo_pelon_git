@@ -145,7 +145,7 @@
   letter-spacing: 0px;
   color: #f6f3ee;
   border-bottom: 0.25px solid #f7f3ed;
-  padding: 0px;
+  padding: 0px !important;
 }
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
   margin-left: 50%;
