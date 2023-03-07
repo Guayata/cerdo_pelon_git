@@ -140,7 +140,8 @@
 }
 .globo-form-app .globo-form-control:has(label:not([for$="-textarea"])) {
   text-align: left;
-  font: normal normal normal 11px/13px Helvetica;
+  font-family: Helvetica;
+  font-size: 11px;
   letter-spacing: 0px;
   color: #f6f3ee;
   border-bottom: 0.25px solid #f7f3ed;
