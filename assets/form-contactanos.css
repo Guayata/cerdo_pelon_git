@@ -167,6 +167,5 @@
 }
 
 .content.flex-wrap.block-container + p {
-  display: none !important;
   visibility: hidden;
 }
