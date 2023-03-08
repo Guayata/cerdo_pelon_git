@@ -96,12 +96,12 @@
 .globo-form-app .globo-form-control input {
   background: none;
   color: #f6f3ee;
-  border-bottom: 1px solid #f6f3ee;
+  border-bottom: 0.25px solid #f6f3ee;
 }
 .globo-form-app .globo-form-control textarea {
   background: none;
   color: #f6f3ee;
-  border: 1px solid #f6f3ee;
+  border: 0.25px solid #f6f3ee;
 }
 .globo-form-app .globo-form-control {
   height: 21px;
