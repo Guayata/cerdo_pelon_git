@@ -118,7 +118,7 @@
   color: #2d2a29;
   text-transform: uppercase;
   margin-left: 305px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .globo-form-app {
   margin: 0% auto !important;
@@ -168,4 +168,5 @@
 
 .content.flex-wrap.block-container + p {
   display: none !important;
+  visibility: hidden;
 }
