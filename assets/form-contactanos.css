@@ -113,8 +113,10 @@
   color: #f6f3ee !important;
 }
 .globo-form-id-89615 .globo-form-app .footer button.submit {
-  border: 1px solid #f6f3ee;
-  color: #f6f3ee !important;
+  font: normal normal normal 9px/11px Helvetica;
+  letter-spacing: 1.8px;
+  color: #2d2a29;
+  text-transform: uppercase;
 }
 .globo-form-app {
   margin: 0% auto !important;
@@ -160,11 +162,4 @@
 }
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
   margin-left: 50%;
-}
-
-.globo-form-app button {
-  font: normal normal normal 9px/11px Helvetica;
-  letter-spacing: 1.8px;
-  color: #2d2a29;
-  text-transform: uppercase;
 }
