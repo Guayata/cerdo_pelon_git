@@ -165,3 +165,7 @@
 .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
   margin-left: 50%;
 }
+
+.content.flex-wrap.block-container + p {
+  display: none !important;
+}
