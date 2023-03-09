@@ -40,6 +40,8 @@
     font: normal normal normal 13px/16px Helvetica;
     letter-spacing: 2.6px;
     color: #ada99f;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 }
 button {
