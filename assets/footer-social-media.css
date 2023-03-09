@@ -21,7 +21,6 @@
 }
 @media (max-width: 576px) {
   .content-top {
-    margin-top: -45%;
     display: block;
   }
   .content-his {
@@ -29,6 +28,9 @@
   }
   .stay-connected-link {
     margin-top: 1rem;
+  }
+  .spac {
+    width: 100%;
   }
 }
 button {
@@ -42,9 +44,6 @@ button {
 }
 .spac {
   width: 50%;
-  @media (max-width: 576px) {
-    width: auto;
-  }
 }
 .stay-connected-cursive {
   text-align: left;
