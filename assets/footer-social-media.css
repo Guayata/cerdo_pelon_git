@@ -67,7 +67,8 @@
   }
   .image-wrapper,
   .copyright-wrapper,
-  .social-media-links {
+  .social-media-links,
+  .social-media-link {
     margin-right: auto;
     margin-left: auto;
   }
