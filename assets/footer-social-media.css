@@ -36,6 +36,11 @@
     font-size: 27px !important;
     padding: 2% 0 10% 0 !important;
   }
+  .spac input {
+    font: normal normal normal 13px/16px Helvetica;
+    letter-spacing: 2.6px;
+    color: #ada99f;
+  }
 }
 button {
   font-size: 11px !important;
