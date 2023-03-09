@@ -50,9 +50,6 @@
     color: #ada99f;
     background-color: #fafafa;
   }
-  .spac input :placeholder {
-    color: #ada99f;
-  }
 }
 button {
   font-size: 11px !important;
@@ -89,7 +86,7 @@ button {
   border: 1px solid #aca9a0;
   background-color: #fafafa;
 }
-input {
+.spac input {
   border-top: none !important;
   border-right: none !important;
   border-left: none !important;
@@ -97,6 +94,10 @@ input {
   width: 70% !important;
   color: #ada99f !important;
   font-family: Helvetica !important;
+}
+
+.spac input :placeholder {
+  color: #ada99f;
 }
 
 .content-his {
