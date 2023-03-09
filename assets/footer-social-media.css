@@ -25,7 +25,7 @@
     display: block;
   }
   .content-his {
-    display: block;
+    display: block !important;
   }
   .stay-connected-link {
     margin-top: 1rem;
