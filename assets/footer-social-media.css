@@ -5,11 +5,6 @@
   justify-content: space-between;
   align-items: center;
   background-size: 100%;
-  @media (max-width: 576px) {
-    background: url("Footer-mobile.png");
-    margin-top: 40%;
-    background-size: 100% 630px;
-  }
 }
 .content-top {
   background: #fafafa;
@@ -20,6 +15,14 @@
   margin-top: -40px;
 }
 @media (max-width: 576px) {
+  .foo {
+    background: url("Footer-mobile.png");
+    margin-top: 40%;
+    background-size: 100% 630px;
+  }
+  button {
+    margin: 30px 0;
+  }
   .content-top {
     display: block;
   }
@@ -42,9 +45,6 @@ button {
   font-family: Helvetica;
   color: #aca9a0;
   padding: 7px 15px;
-  @media (max-width: 576px) {
-    margin: 30px 0;
-  }
 }
 .spac {
   width: 50%;
