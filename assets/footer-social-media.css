@@ -65,7 +65,8 @@
   .bottom-link {
     display: none !important;
   }
-  .image-wrapper {
+  .image-wrapper,
+  .copyright-wrapper .social-media-links {
     margin-right: auto;
     margin-left: auto;
   }
@@ -161,6 +162,4 @@ button {
   letter-spacing: 1.8px;
   color: #2d2a29;
   text-transform: uppercase;
-}
-.logo-blanco-mobile {
 }
