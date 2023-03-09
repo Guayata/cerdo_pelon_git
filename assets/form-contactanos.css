@@ -136,11 +136,11 @@
 }
 .globo-form-app .globo-form-control:has(label[for$="-email"]) {
   position: absolute;
-  margin-top: 25px;
+  margin-top: 3rem;
 }
 .globo-form-app .globo-form-control:has(label[for$="-phone"]) {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 6rem;
 }
 .globo-form-app .globo-form-control:has(label:not([for$="-textarea"])) {
   text-align: left;
@@ -168,7 +168,7 @@
 @media (max-width: 576px) {
   .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
     margin-left: 0px;
-    margin-top: 1rem;
+    margin-top: 9rem;
   }
 }
 
