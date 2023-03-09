@@ -167,6 +167,7 @@
 }
 @media (max-width: 576px) {
   .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
+    margin-left: 0px;
     margin-top: 1rem;
   }
 }
