@@ -59,7 +59,7 @@
     background-color: #fafafa;
   }
   .bottom-link-mobile {
-    display: flex !important;
+    display: inline-flex !important;
   }
   .bottom-link {
     display: none !important;
