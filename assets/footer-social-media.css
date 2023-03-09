@@ -66,7 +66,8 @@
     display: none !important;
   }
   .image-wrapper,
-  .copyright-wrapper .social-media-links {
+  .copyright-wrapper,
+  .social-media-links {
     margin-right: auto;
     margin-left: auto;
   }
