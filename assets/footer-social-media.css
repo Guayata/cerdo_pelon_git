@@ -18,8 +18,9 @@
   padding: 15px 3%;
   height: auto;
   margin-top: -40px;
-  @media (max-width: 576px) {
-    flex-direction: column;
+}
+@media (max-width: 576px) {
+  .content-top {
     margin-top: -45%;
     display: block;
   }
