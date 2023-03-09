@@ -20,9 +20,6 @@
     margin-top: 40%;
     background-size: 100% 630px;
   }
-  button {
-    margin: 30px 0;
-  }
   .content-top {
     display: block;
   }
@@ -39,21 +36,15 @@
     font-size: 27px !important;
     padding: 2% 0 10% 0 !important;
   }
-  .stay-connected-cursive {
-    font-size: 30px;
-  }
-  .bottom-link {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 40%;
-  }
 }
 button {
   font-size: 11px !important;
   font-family: Helvetica;
   color: #aca9a0;
   padding: 7px 15px;
+  @media (max-width: 576px) {
+    margin: 30px 0;
+  }
 }
 .spac {
   width: 50%;
@@ -64,6 +55,9 @@ button {
   letter-spacing: 0px;
   color: #2d2a29;
   margin-bottom: 0px;
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
 }
 .stay-connected-juni {
   text-align: left;
@@ -109,11 +103,23 @@ input {
   justify-content: space-evenly;
   align-items: flex-end;
   margin-top: 6%;
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40%;
+  }
 }
 .logo-2-blanco {
   height: 71px;
 }
 
+.redes-links {
+  @media (max-width: 576px) {
+    margin-left: 6%;
+    margin-bottom: -5%;
+  }
+}
 .social-media-link {
   text-align: left;
   font-family: "Helvetica";
