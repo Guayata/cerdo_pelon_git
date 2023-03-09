@@ -24,6 +24,12 @@
     margin-top: -45%;
     display: block;
   }
+  .content-his {
+    display: block;
+  }
+  .stay-connected-link {
+    margin-top: 1rem;
+  }
 }
 button {
   font-size: 11px !important;
