@@ -96,7 +96,7 @@ button {
   font-family: Helvetica !important;
 }
 
-.spac input :placeholder {
+.spac input::placeholder {
   color: #ada99f;
 }
 
