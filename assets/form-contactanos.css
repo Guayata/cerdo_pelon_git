@@ -178,8 +178,8 @@
   }
   .content-one .puerco-oreja {
     position: absolute;
-    margin-top: 340px;
-    margin-left: 120px;
+    margin-top: 340px !important;
+    margin-left: 120px !important;
   }
 }
 
