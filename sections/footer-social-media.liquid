@@ -25,18 +25,22 @@
   </div>
 
   <div class="bottom-link">
+    <img class="d-md-block logo-2-blanco mobile" src="{{ 'Grupo 139.png' | asset_url }}">
     <div class="redes-links">
       <a class="social-media-link" href="{{ section.settings.email }}">EMAIL</a>
       <a class="social-media-link" href="{{ section.settings.instagram }}">INSTAGRAM</a>
       <a class="social-media-link" href="{{ section.settings.youtube }}">YOUTUBE</a>
       <a class="social-media-link" href="{{ section.settings.linkedin }}">LINKEDIN</a>
     </div>
-    <img class="d-md-block logo-2-blanco" src="{{ 'Grupo 139.png' | asset_url }}">
+    <img class="d-none d-sm-none d-md-block logo-2-blanco" src="{{ 'Grupo 139.png' | asset_url }}">
     <a href="{{ section.settings.undertk }}" class="social-media-link"
       >COPYRIGHT © 2022 UNDETK STUDIO. ALL RIGHTS RESERVED.</a
     >
   </div>
 </div>
+<script>
+  document.querySelector('.content.flex-wrap.block-container+p')?.remove()
+</script>
 {% schema %}
   {
     "name": "footer-social-media",
