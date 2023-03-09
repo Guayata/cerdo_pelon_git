@@ -50,6 +50,9 @@
     color: #ada99f;
     background-color: #fafafa;
   }
+  .spac input :placeholder {
+    color: #ada99f;
+  }
 }
 button {
   font-size: 11px !important;
