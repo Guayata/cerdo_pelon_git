@@ -100,26 +100,6 @@
         "subtitle": "Products slider"
       }
     },
-    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a": {
-      "type": "col-slider",
-      "blocks": {
-        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6": {
-          "type": "collection",
-          "settings": {
-            "collection": "products"
-          }
-        }
-      },
-      "block_order": [
-        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6"
-      ],
-      "settings": {
-        "navigation_amount": 3,
-        "navigation_color": "",
-        "title": "Collection slider",
-        "subtitle": "Collection slider"
-      }
-    },
     "a3baba80-3e86-46c0-91e3-1f24c50db503": {
       "type": "cintillo-text-three-circle",
       "settings": {
@@ -150,6 +130,7 @@
     },
     "7aefe7c2-4ff4-4441-915e-b3a204d31c58": {
       "type": "featured-articles",
+      "disabled": true,
       "settings": {
         "blog-title": "EL CERDO PELÓN MEXICANO, UNA RAZA ESPAÑOLA.",
         "blog-subtitle": "El primer porcino que llegó a México aún existe en estado puro. Te presentamos al cerdo pelón mexicano, una raza a punto de desaparecer.",
@@ -165,6 +146,26 @@
         "button_link": "",
         "button_vermas": "VER MÁS ARTÍCULOS",
         "button_link_vermas": ""
+      }
+    },
+    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a": {
+      "type": "col-slider",
+      "blocks": {
+        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6": {
+          "type": "collection",
+          "settings": {
+            "collection": "products"
+          }
+        }
+      },
+      "block_order": [
+        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6"
+      ],
+      "settings": {
+        "navigation_amount": 3,
+        "navigation_color": "",
+        "title": "Collection slider",
+        "subtitle": "Collection slider"
       }
     },
     "d16fcf10-9b6a-48e3-849e-ff16dba08a69": {
@@ -193,12 +194,12 @@
     "image_banner",
     "rich_text",
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
-    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a",
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac",
     "830cb05f-3c8c-43d2-91c3-5c3e9ca37125",
     "f4c71394-dc6f-4dd9-97ba-7f2be07265b2",
     "7aefe7c2-4ff4-4441-915e-b3a204d31c58",
+    "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a",
     "d16fcf10-9b6a-48e3-849e-ff16dba08a69",
     "4bba4d9d-6d76-492e-89bd-9fd0504f7f08"
   ]
