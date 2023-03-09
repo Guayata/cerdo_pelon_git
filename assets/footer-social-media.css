@@ -60,6 +60,7 @@
   }
   .bottom-link-mobile {
     display: inline-flex !important;
+    flex-wrap: wrap;
   }
   .bottom-link {
     display: none !important;
