@@ -65,10 +65,6 @@
   .bottom-link {
     display: none !important;
   }
-  .social-media-link {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
   .image-wrapper,
   .copyright-wrapper,
   .social-media-links {
@@ -156,8 +152,8 @@ button {
   font-size: 9px;
   letter-spacing: 1.8px;
   color: #f6f3ee;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 2rem;
+  margin-right: 2rem;
   text-transform: uppercase;
   opacity: 1;
 }
