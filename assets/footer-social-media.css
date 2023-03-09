@@ -59,10 +59,10 @@
     background-color: #fafafa;
   }
   .bottom-link-mobile {
-    display: flex;
+    display: flex !important;
   }
   .bottom-link {
-    display: none;
+    display: none !important;
   }
 }
 button {
@@ -139,13 +139,6 @@ button {
 .logo-2-blanco {
   height: 71px;
 }
-
-.redes-links {
-  @media (max-width: 576px) {
-    margin-left: 6%;
-    margin-bottom: -5%;
-  }
-}
 .social-media-link {
   text-align: left;
   font-family: "Helvetica";
@@ -163,4 +156,6 @@ button {
   letter-spacing: 1.8px;
   color: #2d2a29;
   text-transform: uppercase;
+}
+.logo-blanco-mobile {
 }
