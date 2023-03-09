@@ -177,11 +177,9 @@
     color: #f6f3ee !important;
   }
   .content-one .puerco-oreja {
-     {
-      position: absolute;
-      margin-top: 340px;
-      margin-left: 120px;
-    }
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 120px;
   }
 }
 
