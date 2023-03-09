@@ -32,6 +32,10 @@
   .spac {
     width: 100%;
   }
+  .stay-connected-juni {
+    font-size: 27px !important;
+    padding: 2% 0 10% 0 !important;
+  }
 }
 button {
   font-size: 11px !important;
@@ -62,10 +66,6 @@ button {
   letter-spacing: 0px;
   color: #2d2a29;
   text-transform: uppercase;
-  margin-top @media (max-width: 576px) {
-    font-size: 27px;
-    padding: 2% 0 10% 0;
-  }
 }
 
 .stay-connected-send {
