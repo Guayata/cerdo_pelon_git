@@ -162,8 +162,10 @@
 ::placeholder {
   color: #f6f3ee;
 }
-.globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
-  margin-left: 50%;
+@media (min-width: 576px) {
+  .globo-form-app .globo-form-control:has(label[for$="-textarea"]) {
+    margin-left: 50%;
+  }
 }
 
 .content.flex-wrap.block-container + p {
