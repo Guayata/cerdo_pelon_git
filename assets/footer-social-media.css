@@ -64,6 +64,10 @@
   .bottom-link {
     display: none !important;
   }
+  .image-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 button {
   font-size: 11px !important;
