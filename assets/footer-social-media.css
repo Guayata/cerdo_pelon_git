@@ -42,7 +42,7 @@
     padding: 2% 0 10% 0 !important;
   }
   .stay-connected-cursive {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .spac button {
     font: normal normal normal 13px/16px Helvetica;
