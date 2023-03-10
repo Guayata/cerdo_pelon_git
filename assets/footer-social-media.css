@@ -59,8 +59,7 @@
     background-color: #fafafa;
   }
   .bottom-link-mobile {
-    display: inline-flex !important;
-    flex-wrap: wrap;
+    display: block !important;
   }
   .bottom-link {
     display: none !important;
@@ -70,6 +69,9 @@
   .social-media-links {
     margin-right: auto;
     margin-left: auto;
+  }
+  .social-media-links {
+    
   }
 }
 button {
