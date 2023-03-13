@@ -46,9 +46,10 @@
   font-size: 13px;
   line-height: 16px;
 }
-
-.button-nosotros {
+.div-button-nosotros{
   margin-top: 3%;
+}
+.button-nosotros {
   font-family: 'Helvetica';
   font-size: 13px;
   color: black !important;
