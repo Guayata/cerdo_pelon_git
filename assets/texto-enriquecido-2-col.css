@@ -18,23 +18,31 @@
 .rich-txt-row {
   padding: 5% 10% 0% 10%;
 }
+.col-titles{
+  padding-right: 14%;
+}
 
 .rich-txt-title {
   font-family: Junicode Two Beta;
   font-size: 45px;
+  line-height: 45px;
 }
 
 .rich-txt-subtitle {
   font-family: "Snell Roundhand";
   font-size: 45px;
+  line-height: 45px;
+  margin-top: 3%;
 }
 
 .rich-txt-secondSubtitle {
   font-family: "Snell Roundhand";
   font-size: 25px;
+  line-height: 25px;
 }
 
 .rich-txt-normal{
   font-family: 'Helvetica';
   font-size: 13px;
+  line-height: 16px;
 }
