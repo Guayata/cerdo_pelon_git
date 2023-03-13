@@ -4,8 +4,9 @@
 }
 
 /* Clear floats after the columns */
-.row:after {
+.rich-txt-row:after {
   content: "";
   display: table;
   clear: both;
+  padding: 0% 0% 0% 0%;
 }
