@@ -1,9 +1,15 @@
-/* Create two equal columns that floats next to each other */
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(SnellRoundhand.ttc);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .column {
   width: 50%;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
