@@ -111,6 +111,9 @@
   height: 28px;
   background: transparent;
 }
+.chef-opinion-container {
+  display: block;
+}
 /*========================= Slider ==============================*/
 .slideshow-container {
   width: 75%;
