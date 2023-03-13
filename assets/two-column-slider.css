@@ -34,9 +34,10 @@
   }
 }
 .container-tho-column .column-one .content-text p {
-  font-family: Junicode Two Beta;
-  font-size: 45px;
-  margin-top: -25px;
+  text-align: center;
+  font: normal normal normal 9px/11px Helvetica;
+  letter-spacing: 1.8px;
+  color: #f7f3ed;
 }
 @media (max-width: 576px) {
   .container-tho-column .column-one .content-text p {
