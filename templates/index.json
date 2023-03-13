@@ -49,6 +49,16 @@
         "show_text_below": false
       }
     },
+    "50d4cda6-b282-4d5b-8a39-aecc1a62ace5": {
+      "type": "texto-enriquecido-2-col",
+      "settings": {
+        "Title": "CERDO PELÓN MEXICANO.",
+        "subtitle": "Una especie única en la gastronomía nacional.",
+        "secondSubtitle": "El paraíso secreto de los cerdos pelones",
+        "txt": "La mayoría de los especímenes de cerdo pelón no tiene pelo en el cuerpo y su piel es color gris oscuro, tersa y mate. Por supuesto, también pensamos en el cerdo blanco convencional, pero las diferencias son evidentes: esta especie lampiña tiene trompa más larga, orejas semirrectas, ancas caídas y pezuñas oscuras.",
+        "button_link": ""
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -192,6 +202,7 @@
   },
   "order": [
     "image_banner",
+    "50d4cda6-b282-4d5b-8a39-aecc1a62ace5",
     "rich_text",
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
