@@ -8,5 +8,7 @@
   content: "";
   display: table;
   clear: both;
+}
+.rich-txt-row {
   padding: 0% 0% 0% 0%;
 }
