@@ -8,43 +8,23 @@
         "padding_bottom": 28
       }
     },
-    "81812bdc-9d7d-4de6-ad82-cfc157239cce": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>¿Por qué Jamón pata negra<\/p>",
-            "heading_size": "h0"
-          }
-        },
-        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>TIENE UN SABOR TAN DISTINTIVO?<\/p>"
-          }
-        },
-        "19e99220-3897-43db-831f-0a98ec77b4ea": {
-          "type": "caption",
-          "settings": {
-            "caption": "",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-0",
-        "template--16056359878829__81812bdc-9d7d-4de6-ad82-cfc157239cce-1678226780efe76804-1",
-        "19e99220-3897-43db-831f-0a98ec77b4ea"
-      ],
+    "56d3e1ce-3a10-45ef-9529-f682d6979d3a": {
+      "type": "nosotros",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "firstTitle": "¿Por qué Jamón pata negra",
+        "secondTitle": "TIENE UN SABOR TAN DISTINTIVO?",
+        "subtitle": "EL ORIGEN DEL JAMÓN PATA NEGRA ESTÁ IMPREGNADO DE MISTERIO Y ROMANTICISMO. ESTOS SE CREE QUE SON LOS CERDOS ORIGINALES DE ESPAÑA, DOMESTICADOS DURANTE SIGLOS.",
+        "text1": "Solo en los últimos doscientos años los cerdos rosados invadieron su territorio. El cerdo ibérico es grande, con un hocico muy largo y patas delgadas. De color negro con muy poco pelo, tienen pezuñas negras que lo distinguen del jamón serrano. Tienen venas de grasa, recorriendo todo su músculo, aquí tienes algunos ejemplos a buen precio. Esto, junto con una gran cantidad de capas de grasa en cada jamón pata negra, permite que los jamones ibéricos se curen por mucho más tiempo, lo que resulta en un sabor más complejo e intenso. Aquí nos gustaría mencionar el hecho de que la mayoría de los jamones ibéricos pata negra están hechos de cerdos ibéricos que comen maíz y llevan una vida normal. Estos cerdos terminan sus vidas en la Dehesa, viviendo en pequeños clanes familiares hasta que llega su día de «sacrificio». Y, su pasatiempo favorito es echar raíces alrededor de los pastos en la Dehesa, en busca de bellotas, hierbas y hierbas. Todas estas condiciones lo convierten en un cerdo feliz y bien redondeado para obtener una materia prima exquisitamente marmolada, llena de antioxidantes naturales, un ingrediente clave para el curado prolongado del jamón pata negra.",
+        "text2": "Solo en los últimos doscientos años los cerdos rosados invadieron su territorio. El cerdo ibérico es grande, con un hocico muy largo y patas delgadas. De color negro con muy poco pelo, tienen pezuñas negras que lo distinguen del jamón serrano. Tienen venas de grasa, recorriendo todo su músculo, aquí tienes algunos ejemplos a buen precio. Esto, junto con una gran cantidad de capas de grasa en cada jamón pata negra, permite que los jamones ibéricos se curen por mucho más tiempo, lo que resulta en un sabor más complejo e intenso. Aquí nos gustaría mencionar el hecho de que la mayoría de los jamones ibéricos pata negra están hechos de cerdos ibéricos que comen maíz y llevan una vida normal. Estos cerdos terminan sus vidas en la Dehesa, viviendo en pequeños clanes familiares hasta que llega su día de «sacrificio». Y, su pasatiempo favorito es echar raíces alrededor de los pastos en la Dehesa, en busca de bellotas, hierbas y hierbas. Todas estas condiciones lo convierten en un cerdo feliz y bien redondeado para obtener una materia prima exquisitamente marmolada, llena de antioxidantes naturales, un ingrediente clave para el curado prolongado del jamón pata negra.",
+        "image_nosotros": "shopify:\/\/shop_images\/Rectangulo_187_2x_85da7833-2146-4061-96d1-c00856cb61ee.png"
+      }
+    },
+    "cb03cd77-910a-40db-9fc1-1b9f73bd260a": {
+      "type": "main-revolving-text",
+      "settings": {
+        "cursive": "El cerdo pelón mexicano tiene su origen en 1492",
+        "plain_text": "El cerdo pelón mexicano tiene su origen en 1492",
+        "color_text": "#000"
       }
     },
     "b999743a-926a-4110-a7e5-11943fdcec4b": {
@@ -66,7 +46,8 @@
   },
   "order": [
     "main",
-    "81812bdc-9d7d-4de6-ad82-cfc157239cce",
+    "56d3e1ce-3a10-45ef-9529-f682d6979d3a",
+    "cb03cd77-910a-40db-9fc1-1b9f73bd260a",
     "b999743a-926a-4110-a7e5-11943fdcec4b"
   ]
 }
