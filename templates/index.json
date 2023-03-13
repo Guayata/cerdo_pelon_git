@@ -52,41 +52,11 @@
     "50d4cda6-b282-4d5b-8a39-aecc1a62ace5": {
       "type": "texto-enriquecido-2-col",
       "settings": {
-        "Title": "CERDO PELÓN MEXICANO.",
-        "subtitle": "Una especie única en la gastronomía nacional.",
-        "secondSubtitle": "El paraíso secreto de los cerdos pelones",
-        "txt": "La mayoría de los especímenes de cerdo pelón no tiene pelo en el cuerpo y su piel es color gris oscuro, tersa y mate. Por supuesto, también pensamos en el cerdo blanco convencional, pero las diferencias son evidentes: esta especie lampiña tiene trompa más larga, orejas semirrectas, ancas caídas y pezuñas oscuras.",
-        "button_link": ""
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Cerdo Pelón Mexicano<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ÚNICO EN LA GASTRONOMÍA NACIONAL<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "title": "CERDO PELÓN MEXICANO.",
+        "subtitle": "Un producto excepcional de la gastronomía nacional.",
+        "secondSubtitle": "Cerdo pelón mexicano de la más alta calidad",
+        "txt": "Producimos y distribuimos carne de este ejemplar de características únicas sin el uso de antibióticos, hormonas y a través de libre pastoreo para crear el próximo gran producto alimenticio mexicano basándonos en la filosofía de Happy Pigs.",
+        "button_link": "https:\/\/cerdopelon.com\/pages\/nosotros"
       }
     },
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f": {
@@ -203,7 +173,6 @@
   "order": [
     "image_banner",
     "50d4cda6-b282-4d5b-8a39-aecc1a62ace5",
-    "rich_text",
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac",
