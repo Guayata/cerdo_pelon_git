@@ -9,12 +9,6 @@
 .column-nosotros {
   width: 50%;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .rich-txt-row {
   padding: 5% 10% 0% 10%;
 }
