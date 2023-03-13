@@ -119,7 +119,7 @@
 .chef-image {
   width: 182px;
   height: 178px;
-  background: transparent url("img/Elipse 111.png") 0% 0% no-repeat padding-box;
+  border-radius: 50%;
 }
 
 .chef-quote {
