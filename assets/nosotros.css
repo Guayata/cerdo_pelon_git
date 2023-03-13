@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(SnellRoundhand.ttc);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.wrapper-nosotros{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  color: black;
+}
+.main-title-nosotros{
+  font-family: "Snell Roundhand";
+  font-size: 45px;
+}
+
+.title-nosotros {
+  font-family: Junicode Two Beta;
+  font-size: 45px;
+}
+
+.sub-title-nosotros {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: 'Helvetica';
+  font-size: 13px;
+  font-weight: light;
+  letter-spacing: 2.6px;
+}
+
+.text-nosotros {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: 'Helvetica';
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+
+.image-nosotros img{
+  width: 100%;
+  height: 100%;
+}
