@@ -28,3 +28,13 @@
   font-family: "Snell Roundhand";
   font-size: 45px;
 }
+
+.rich-txt-secondSubtitle {
+  font-family: "Snell Roundhand";
+  font-size: 25px;
+}
+
+.rich-txt-normal{
+  font-family: 'Helvetica';
+  font-size: 13px;
+}

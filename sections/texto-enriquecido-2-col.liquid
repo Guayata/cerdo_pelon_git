@@ -1,12 +1,12 @@
 {{ 'texto-enriquecido-2-col.css' | asset_url | stylesheet_tag }}
 <div class="row rich-txt-row">
   <div class="column">
-    <div>{{ section.settings.title }}</div>
-    <div>{{ section.settings.subtitle }}</div>
+    <div class="rich-txt-title">{{ section.settings.title }}</div>
+    <div class="rich-txt-subtitle">{{ section.settings.subtitle }}</div>
   </div>
   <div class="column">
-    <div>{{ section.settings.secondSubtitle }}</div>
-    <div>{{ section.settings.txt }}</div>
+    <div class="rich-txt-secondSubtitle">{{ section.settings.secondSubtitle }}</div>
+    <div class="rich-txt-normal">{{ section.settings.txt }}</div>
   </div>
 </div>
 {% schema %}
