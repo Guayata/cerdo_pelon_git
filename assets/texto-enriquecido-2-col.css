@@ -46,3 +46,9 @@
   font-size: 13px;
   line-height: 16px;
 }
+
+.button-nosotros {
+  padding: 2%;
+  border: 1px black;
+  border-style: solid;
+}
