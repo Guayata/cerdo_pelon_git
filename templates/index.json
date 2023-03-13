@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "El cerdo pelón mexicano tiene su origen en 1492",
+            "heading": "El cerdo pelón mexicano, una especie única",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "La mayoría de los especímenes de cerdo pelón no tiene pelo en el cuerpo y su piel es color gris oscuro, tersa y mate. Por supuesto, también pensamos en el cerdo blanco convencional, pero las diferencias son evidentes: esta especie lampiña.",
+            "text": "El cerdo pelón es una raza asentada en México en 1519 y uno de los principales ingredientes traídos por los españoles a nuestro país, convirtiéndose en un ejemplar nacional que aporta nuevos sabores y aromas a la carne derivada de su producción.",
             "text_style": "body"
           }
         },
@@ -128,6 +128,49 @@
         "button_link_vermas": ""
       }
     },
+    "372be626-69f3-449a-b4d0-8b072bf26c22": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Cerdo Pelón Mexicano<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ÚNICO EN LA GASTRONOMÍA NACIONAL<\/p>"
+          }
+        },
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-0",
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-1",
+        "template--15992284020909__372be626-69f3-449a-b4d0-8b072bf26c22-16787447697d2a0771-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a": {
       "type": "col-slider",
       "blocks": {
@@ -179,6 +222,7 @@
     "830cb05f-3c8c-43d2-91c3-5c3e9ca37125",
     "f4c71394-dc6f-4dd9-97ba-7f2be07265b2",
     "7aefe7c2-4ff4-4441-915e-b3a204d31c58",
+    "372be626-69f3-449a-b4d0-8b072bf26c22",
     "b3d475d9-0e9f-453c-b4e4-8b4c017ac74a",
     "d16fcf10-9b6a-48e3-849e-ff16dba08a69",
     "4bba4d9d-6d76-492e-89bd-9fd0504f7f08"
