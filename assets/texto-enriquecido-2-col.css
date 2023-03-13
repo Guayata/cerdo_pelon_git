@@ -49,6 +49,7 @@
   font-family: "Snell Roundhand";
   font-size: 25px;
   line-height: 25px;
+  margin-bottom: 2%;
 }
 
 .rich-txt-normal{
@@ -57,7 +58,7 @@
   line-height: 16px;
 }
 .div-button-nosotros{
-  margin-top: 3%;
+  margin-top: 5%;
 }
 .button-nosotros {
   font-family: 'Helvetica';
