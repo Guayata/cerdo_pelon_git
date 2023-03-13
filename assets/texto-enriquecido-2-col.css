@@ -48,7 +48,8 @@
 }
 
 .button-nosotros {
-  color: black;
+  color: black !important;
+  text-decoration: none !important;
   padding: 2%;
   border: 1px black;
   border-style: solid;
