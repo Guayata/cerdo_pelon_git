@@ -105,22 +105,6 @@
       "settings": {
       }
     },
-    "66f22c87-ffc5-43ca-8085-b18896581f3b": {
-      "type": "video",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac": {
       "type": "slider-text",
       "settings": {
@@ -211,7 +195,6 @@
     "rich_text",
     "72b0c744-4a6a-42b1-80c8-50a1e43fe18f",
     "a3baba80-3e86-46c0-91e3-1f24c50db503",
-    "66f22c87-ffc5-43ca-8085-b18896581f3b",
     "ad53d9fe-0771-44c4-a6ae-dde54d72d6ac",
     "830cb05f-3c8c-43d2-91c3-5c3e9ca37125",
     "f4c71394-dc6f-4dd9-97ba-7f2be07265b2",
