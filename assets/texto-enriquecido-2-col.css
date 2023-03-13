@@ -9,6 +9,12 @@
 .column-nosotros {
   width: 50%;
 }
+@media (max-width: 600px) {
+  .column-nosotros {
+    width: 100%;
+  }
+}
+
 .rich-txt-row {
   padding: 5% 10% 0% 10%;
 }
