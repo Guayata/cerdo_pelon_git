@@ -1,7 +1,13 @@
 {{ 'texto-enriquecido-2-col.css' | asset_url | stylesheet_tag }}
 <div class="row">
-  <div class="column">holi</div>
-  <div class="column">holi</div>
+  <div class="column">
+    <div>{{ section.settings.title }}</div>
+    <div>{{ section.settings.subtitle }}</div>
+  </div>
+  <div class="column">
+    <div>{{ section.settings.secondSubtitle }}</div>
+    <div>{{ section.settings.txt }}</div>
+  </div>
 </div>
 {% schema %}
   {
@@ -9,7 +15,7 @@
     "settings": [
        {
         "type": "text",
-        "id": "Title",
+        "id": "title",
         "label": "titulo",
         "default": "CERDO PELÓN MEXICANO."
       },
