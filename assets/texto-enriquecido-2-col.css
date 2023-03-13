@@ -18,3 +18,8 @@
 .rich-txt-row {
   padding: 5% 10% 0% 10%;
 }
+
+.rich-txt-title {
+  font-family: Junicode Two Beta;
+  font-size: 45px;
+}
