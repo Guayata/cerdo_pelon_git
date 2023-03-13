@@ -27,6 +27,11 @@
         "color_text": "#000"
       }
     },
+    "ec8be55b-214d-44a6-8a97-298cd344186a": {
+      "type": "form-contactanos",
+      "settings": {
+      }
+    },
     "b999743a-926a-4110-a7e5-11943fdcec4b": {
       "type": "footer-social-media",
       "settings": {
@@ -48,6 +53,7 @@
     "main",
     "56d3e1ce-3a10-45ef-9529-f682d6979d3a",
     "cb03cd77-910a-40db-9fc1-1b9f73bd260a",
+    "ec8be55b-214d-44a6-8a97-298cd344186a",
     "b999743a-926a-4110-a7e5-11943fdcec4b"
   ]
 }
