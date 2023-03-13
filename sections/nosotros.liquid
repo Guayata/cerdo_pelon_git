@@ -1,10 +1,69 @@
+{{ 'nosotros.css' | asset_url | stylesheet_tag }}
+<div class="wrapper-nosotros">
+  <div>
+    <div class="main-title-nosotros">{{ section.settings.firstTitle }}</div><br>
+    <div class="title-nosotros">{{ section.settings.secondTitle }}</div>
+  </div>
+  <div class="sub-title-nosotros">
+    <p>{{ section.settings.subtitle }}</p>
+  </div>
+  <div class="text-nosotros">
+    <p>{{ section.settings.text1 }}</p>
+  </div>
+  <div class="image-nosotros" >
+    <img src="{{section.settings.image_nosotros | img_url: '1080x1080' }}">
+  </div>
+  <div class="text-nosotros">
+    <p>{{ section.settings.text2 }}</p>
+  </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "nosotros",
+    "settings": [
+      {
+        "type": "text",
+        "id": "firstTitle",
+        "label": "Primer titulo",
+        "default": "¿Por qué Jamón pata negra"
+      },
+      {
+        "type": "text",
+        "id": "secondTitle",
+        "label": "Segundo titulo",
+        "default": "TIENE UN SABOR TAN DISTINTIVO?"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitulo",
+        "default": "EL ORIGEN DEL JAMÓN PATA NEGRA ESTÁ IMPREGNADO DE MISTERIO Y ROMANTICISMO. ESTOS SE CREE QUE SON LOS CERDOS ORIGINALES DE ESPAÑA, DOMESTICADOS DURANTE SIGLOS."
+      },
+      {
+        "type": "text",
+        "id": "text1",
+        "label": "texto 1",
+        "default": "Solo en los últimos doscientos años los cerdos rosados invadieron su territorio. El cerdo ibérico es grande, con un hocico muy largo y patas delgadas. De color negro con muy poco pelo, tienen pezuñas negras que lo distinguen del jamón serrano. Tienen venas de grasa, recorriendo todo su músculo, aquí tienes algunos ejemplos a buen precio. Esto, junto con una gran cantidad de capas de grasa en cada jamón pata negra, permite que los jamones ibéricos se curen por mucho más tiempo, lo que resulta en un sabor más complejo e intenso. Aquí nos gustaría mencionar el hecho de que la mayoría de los jamones ibéricos pata negra están hechos de cerdos ibéricos que comen maíz y llevan una vida normal. Estos cerdos terminan sus vidas en la Dehesa, viviendo en pequeños clanes familiares hasta que llega su día de «sacrificio». Y, su pasatiempo favorito es echar raíces alrededor de los pastos en la Dehesa, en busca de bellotas, hierbas y hierbas. Todas estas condiciones lo convierten en un cerdo feliz y bien redondeado para obtener una materia prima exquisitamente marmolada, llena de antioxidantes naturales, un ingrediente clave para el curado prolongado del jamón pata negra."
+      },
+      {
+        "type": "text",
+        "id": "text2",
+        "label": "texto 1",
+        "default": "Solo en los últimos doscientos años los cerdos rosados invadieron su territorio. El cerdo ibérico es grande, con un hocico muy largo y patas delgadas. De color negro con muy poco pelo, tienen pezuñas negras que lo distinguen del jamón serrano. Tienen venas de grasa, recorriendo todo su músculo, aquí tienes algunos ejemplos a buen precio. Esto, junto con una gran cantidad de capas de grasa en cada jamón pata negra, permite que los jamones ibéricos se curen por mucho más tiempo, lo que resulta en un sabor más complejo e intenso. Aquí nos gustaría mencionar el hecho de que la mayoría de los jamones ibéricos pata negra están hechos de cerdos ibéricos que comen maíz y llevan una vida normal. Estos cerdos terminan sus vidas en la Dehesa, viviendo en pequeños clanes familiares hasta que llega su día de «sacrificio». Y, su pasatiempo favorito es echar raíces alrededor de los pastos en la Dehesa, en busca de bellotas, hierbas y hierbas. Todas estas condiciones lo convierten en un cerdo feliz y bien redondeado para obtener una materia prima exquisitamente marmolada, llena de antioxidantes naturales, un ingrediente clave para el curado prolongado del jamón pata negra."
+      },
+      {
+          "type": "image_picker",
+          "id": "image_nosotros",
+          "label": "Imagen"
+      }
+    ],
+    "presets": [
+		{
+			"name": "Nosotros"
+		}
+	]
   }
 {% endschema %}
-
 {% stylesheet %}
 {% endstylesheet %}
 
