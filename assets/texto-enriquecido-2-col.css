@@ -48,6 +48,8 @@
 }
 
 .button-nosotros {
+  font-family: 'Helvetica';
+  font-size: 13px;
   color: black !important;
   text-decoration: none !important;
   padding: 2%;
