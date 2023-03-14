@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "El cerdo pelón es una raza asentada en México en 1519 y uno de los principales ingredientes traídos por los españoles a nuestro país, convirtiéndose en un ejemplar nacional que aporta nuevos sabores y aromas a la carne derivada de su producción.",
+            "text": "El cerdo pelón es una raza asentada en México desde el Siglo XVI y rápidamente se convirtió en una de las principales contribuciones de los españoles a nuestro país. Hoy, esta especie endémica es un ejemplar nacional que aporta nuevos sabores y aromas a nuestra gastronomía.",
             "text_style": "body"
           }
         },
@@ -52,10 +52,10 @@
     "50d4cda6-b282-4d5b-8a39-aecc1a62ace5": {
       "type": "texto-enriquecido-2-col",
       "settings": {
-        "title": "CERDO PELÓN MEXICANO.",
-        "subtitle": "Un producto excepcional de la gastronomía nacional.",
+        "title": "CERDO PELÓN MEXICANO,",
+        "subtitle": "Un producto excepcional de la gastronomía nacional",
         "secondSubtitle": "Cerdo pelón mexicano de la más alta calidad",
-        "txt": "Producimos y distribuimos carne de este ejemplar de características únicas sin el uso de antibióticos, hormonas y a través de libre pastoreo para crear el próximo gran producto alimenticio mexicano basándonos en la filosofía de Happy Pigs.",
+        "txt": "Producimos y distribuimos carne de este ejemplar de características únicas, sin el uso de antibióticos, hormonas y a través de libre pastoreo para crear el próximo gran producto alimenticio mexicano basándonos en la filosofía de Happy Pigs.",
         "button_link": "https:\/\/cerdopelon.com\/pages\/nosotros"
       }
     },
