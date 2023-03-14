@@ -35,9 +35,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner.png",
+        "image": "shopify:\/\/shop_images\/Grupo_184_2x_d78bc387-c269-4bc2-aa73-c5cd0ebf830f.png",
         "image_mobile": "shopify:\/\/shop_images\/Grupo_148.png",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
