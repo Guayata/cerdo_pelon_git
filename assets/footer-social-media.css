@@ -110,9 +110,9 @@ button {
   background-color: #fafafa;
 }
 .spac input {
-  border-top: none !important;
-  border-right: none !important;
-  border-left: none !important;
+  border-top: none ;
+  border-right: none ;
+  border-left: none ;
   border-bottom: 1px solid #aca9a0 !important;
   width: 50% !important;
   color: #ada99f !important;
