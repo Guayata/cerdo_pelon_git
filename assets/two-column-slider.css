@@ -116,11 +116,11 @@
   text-align: center;
 }
 
-.chef-image {
+/* .chef-image {
   width: 182px;
   height: 178px;
   border-radius: 50%;
-}
+} */
 
 .chef-quote {
   font: normal normal 300 13px/16px Helvetica;
