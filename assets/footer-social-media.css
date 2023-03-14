@@ -110,17 +110,17 @@ button {
   background-color: #fafafa;
 }
 .spac input {
-  border-top: none !important;
-  border-right: none !important;
-  border-left: none !important;
-  border-bottom: 1px solid #aca9a0 !important;
-  width: 50% !important;
-  color: #ada99f !important;
-  font-family: Helvetica !important;
+  border-top: none ;
+  border-right: none ;
+  border-left: none ;
+  border-bottom: 1px solid #aca9a0 ;
+  width: 50% ;
+  color: #ada99f ;
+  font-family: Helvetica;
 }
 
 .spac input::placeholder {
-  color: #ada99f;
+/*   color: #ada99f; */
 }
 
 .content-his {
