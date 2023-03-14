@@ -117,6 +117,7 @@ button {
   width: 50% ;
   color: #ada99f ;
   font-family: Helvetica;
+  background: transparent;
 }
 
 .spac input::placeholder {
