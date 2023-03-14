@@ -113,9 +113,9 @@ button {
   border-top: none ;
   border-right: none ;
   border-left: none ;
-  border-bottom: 1px solid #aca9a0 !important;
+  border-bottom: 1px solid #aca9a0 ;
   width: 50% !important;
-  color: #ada99f !important;
+/*   color: #ada99f !important; */
   font-family: Helvetica !important;
 }
 
