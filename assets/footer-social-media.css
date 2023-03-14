@@ -1,5 +1,5 @@
 .foo {
-  background: url("Grupo 183.png");
+  background: url("fondo_footer.png");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,7 +16,7 @@
 }
 @media (max-width: 576px) {
   .foo {
-    background: url("Grupo 183.png");
+    background: url("fondo_footer.png");
     margin-top: 40%;
     background-size: 100% 630px;
   }
