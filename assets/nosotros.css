@@ -21,6 +21,7 @@
 .title-nosotros {
   font-family: Junicode Two Beta;
   font-size: 45px;
+  max-width: 50%;
 }
 
 .sub-title-nosotros {
