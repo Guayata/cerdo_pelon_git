@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 38px;
+  height: 84px;
   overflow-x: hidden;
 }
 
@@ -14,8 +14,12 @@
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .box-cintillo-loop {
