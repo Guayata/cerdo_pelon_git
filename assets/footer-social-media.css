@@ -110,14 +110,15 @@ button {
   background-color: #fafafa;
 }
 .spac input {
-  border-top: none ;
-  border-right: none ;
-  border-left: none ;
-  border-bottom: 1px solid #aca9a0 ;
-  width: 50% ;
-  color: #ada99f ;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #aca9a0;
+  width: 50%;
+  color: #ada99f;
   font-family: Helvetica;
   background: transparent;
+  margin-right: 10px;
 }
 
 .spac input::placeholder {
