@@ -2,6 +2,7 @@
 
 <div class="banner-video-container">
   <video>
+    <source src="{{ section.settings.video-url }}">
     <div class="circular-text"></div>
     <div class="play-button"></div>
   </video>
@@ -10,6 +11,18 @@
 {% schema %}
 {
   "name": "Section name",
-  "settings": []
+  "settings": [
+    {
+      "type": "video",
+      "id": "food-wine-article",
+      "label": "Video existente en shopify"
+    }
+  ],
+  "presets":[
+    {
+    "name": "banner-video",
+    "category": "video"
+    }
+  ]
 }
 {% endschema %}
