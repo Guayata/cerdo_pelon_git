@@ -121,6 +121,9 @@
     text-align: start;
     margin: 0 12%;
   }
+  .cinta-circle .image-cicle .img-text i {
+    width: 0%;
+  }
 }
 
 p.title-cinta {
