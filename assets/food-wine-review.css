@@ -48,6 +48,7 @@ p.magazine-review-intro {
 .button-logo-container > * {
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: auto;
 }
 button.leer-articulo {
   border: 1px solid #aca9a0;
