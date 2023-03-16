@@ -85,6 +85,7 @@
 .cinta-circle .image-cicle .line {
   border-right: 1px solid #f6f3ee;
   display: block;
+  height: 160px;
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .line {
