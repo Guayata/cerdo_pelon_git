@@ -2,8 +2,10 @@
   height: 471px;
 }
 .column-one.magazine-img {
+  width: 50%;
   background-color: red;
 }
 
 .column-two.review-img {
+  width: 50%;
 }
