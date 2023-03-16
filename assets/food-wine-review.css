@@ -14,6 +14,9 @@
 }
 
 @media (max-width: 600px) {
+  .container-magazine {
+    flex-direction: column;
+  }
   .column-one.magazine-img,
   .column-two.review-link {
     width: 100%;
@@ -21,7 +24,7 @@
 }
 
 .review-link-container {
-  margin: 5rem 22rem 0rem 8rem;
+  margin: 8% 28% 0% 10%;
 }
 
 p.magazine-review-title {
