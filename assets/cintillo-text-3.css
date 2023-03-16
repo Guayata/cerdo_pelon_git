@@ -45,16 +45,13 @@
     font-size: 40px;
   }
 }
-.cinta-circle .two-column .unline-content .text-cint t {
+.cinta-circle .image-cicle .img-text t {
   font-family: "Helvetica Regular Italic";
   font-size: 45px;
   line-height: 45px;
   margin-top: 30%;
 }
 @media (max-width: 576px) {
-  .cinta-circle .two-column .unline-content .text-cint t {
-    font-size: 35px;
-  }
   .cinta-circle .image-cicle .img-text i {
     display: block;
     width: 150%;
