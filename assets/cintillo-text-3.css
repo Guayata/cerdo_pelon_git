@@ -54,6 +54,10 @@
   .cinta-circle .two-column .unline-content .text-cint t {
     font-size: 35px;
   }
+  .cinta-circle .image-cicle .img-text i {
+    display: block;
+    width: 150%;
+  }
 }
 .cinta-circle .two-column .unline-content .text-cint te {
   font-family: "Helvetica";
@@ -84,8 +88,8 @@
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .line {
-    border-top: 3px solid white;
-    width: 70%;
+    border-top: 2px solid white;
+    width: 60%;
     border-right: none;
     display: block;
   }
