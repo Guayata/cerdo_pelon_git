@@ -5,6 +5,7 @@
 .column-one.magazine-img {
   width: 50%;
   background: url("Grupo 275.png");
+  background-repeat: no-repeat;
 }
 
 .column-two.review-link {
