@@ -441,10 +441,10 @@
   }
 
   .banner__heading {
-    text-align: center;
-    font: normal normal bold 35px/40px Snell Roundhand;
-    letter-spacing: 0px;
-    color: #f6f3ee;
+    margin-bottom: 0;
+    font-family: "Snell Roundhand";
+    font-size: 35px;
+    line-height: 44px;
   }
 
   .banner--content-align-right .banner__buttons--multiple {
