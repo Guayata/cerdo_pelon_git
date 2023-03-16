@@ -1,13 +1,11 @@
 {{ 'banner-video.css' | asset_url | stylesheet_tag }}
 
 <div class="banner-video-container">
-  {% assign video_url = section.settings['banner-video-file'] %}
-  <h1>
-    {{ video_url }}
-  </h1>
-  {% if video_url != blank %}
-    <video src="{{ video_url }}" controls autoplay loop muted></video>
-  {% endif %}
+  <video>
+    <source src="{{ section.settings.banner-video-file  }}" type="video/mp4">
+    <div class="circular-text"></div>
+    <div class="play-button"></div>
+  </video>
 </div>
 
 {% schema %}
