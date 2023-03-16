@@ -1,7 +1,7 @@
 {{ 'banner-video.css' | asset_url | stylesheet_tag }}
 
 <div class="banner-video-container">
-  {% assign video_url = section.settings['banner-video'] %}
+  {% assign video_url = section.settings['banner-video-file'] %}
   <h1>
     {{ video_url }}
   </h1>
