@@ -36,6 +36,36 @@
     text-align: center;
   }
 }
+.cinta-circle .two-column .unline-content .text-cint c {
+  font-family: "Snell Roundhand";
+  font-size: 45px;
+  line-height: 20px;
+}
+@media (max-width: 576px) {
+  .cinta-circle .two-column .unline-content .text-cint c {
+    font-size: 40px;
+  }
+}
+.cinta-circle .two-column .unline-content .text-cint t {
+  font-family: "Helvetica Regular Italic";
+  font-size: 45px;
+  line-height: 45px;
+}
+@media (max-width: 576px) {
+  .cinta-circle .two-column .unline-content .text-cint t {
+    font-size: 35px;
+  }
+}
+.cinta-circle .two-column .unline-content .text-cint te {
+  font-family: "Helvetica";
+  font-size: 13px;
+}
+@media (max-width: 576px) {
+  .cinta-circle .two-column .unline-content .text-cint te {
+    font-size: 13px;
+    text-align: initial;
+  }
+}
 .cinta-circle .image-cicle {
   width: 65%;
   padding: 2% 0;
@@ -72,5 +102,20 @@
     width: auto;
     flex-direction: row;
     margin: 8% 0;
+  }
+}
+.cinta-circle .image-cicle .img-text i {
+  font-size: 13px;
+  line-height: initial;
+}
+.cinta-circle .image-cicle .img-text t {
+  font-family: "Helvetica";
+  margin-top: 20%;
+  line-height: initial;
+}
+@media (max-width: 576px) {
+  .cinta-circle .image-cicle .img-text t {
+    text-align: start;
+    margin: 0 12%;
   }
 }
