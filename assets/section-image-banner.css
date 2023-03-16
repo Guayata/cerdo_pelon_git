@@ -461,3 +461,10 @@
   letter-spacing: 0px;
   color: #f7f3ed;
 }
+
+.banner-heading-junicode {
+  font: normal normal medium 35px/40px Junicode Two Beta;
+  letter-spacing: 0px;
+  color: #f6f3ee;
+  text-transform: uppercase;
+}
