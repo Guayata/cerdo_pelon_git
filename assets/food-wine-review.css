@@ -14,7 +14,8 @@
 }
 
 @media (max-width: 600px) {
-  .column-one.magazine-img.column-two.review-link {
+  .column-one.magazine-img,
+  .column-two.review-link {
     width: 100%;
   }
 }
