@@ -45,6 +45,10 @@ p.magazine-review-intro {
   display: flex;
   margin-left: 8rem;
 }
+.button-logo-container > * {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 button.leer-articulo {
   border: 1px solid #aca9a0;
   padding: 9px;
