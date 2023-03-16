@@ -13,6 +13,10 @@
   width: 50%;
 }
 
+.review-link-container {
+  margin: 5rem 22rem 0rem 8rem;
+}
+
 p.magazine-review-title {
   text-align: left;
   font: normal normal normal 35px/44px Snell Roundhand;
