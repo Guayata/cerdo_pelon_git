@@ -1,7 +1,7 @@
 {{ 'banner-video.css' | asset_url | stylesheet_tag }}
 
 <div class="banner-video-container">
-  <video>
+  <video autoplay muted>
     <source src="{{ section.settings.banner-video-file.sources[0].url  }}" type="video/mp4">
     <div class="circular-text"></div>
     <div class="play-button"></div>
