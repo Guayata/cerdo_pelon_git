@@ -83,12 +83,12 @@
   }
 }
 .cinta-circle .image-cicle .line {
-  border-right: 1px solid white;
+  border-right: 1px solid #f6f3ee;
   display: block;
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .line {
-    border-top: 2px solid white;
+    border-top: 2px solid #f6f3ee;
     width: 60%;
     border-right: none;
     display: block;
