@@ -11,6 +11,11 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.rich-txt-row {
+  height: 374px;
+}
+
 @media (max-width: 700px) {
   .column-nosotros {
     width: 100%;
