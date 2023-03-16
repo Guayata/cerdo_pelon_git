@@ -12,6 +12,10 @@
   margin-bottom: auto;
 }
 
+.column-nosotros:not(.rich-txt-row) {
+  padding-right: 14rem;
+}
+
 .rich-txt-row {
   height: 374px;
 }
