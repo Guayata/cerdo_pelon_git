@@ -12,8 +12,8 @@
   margin-bottom: auto;
 }
 
-.column-nosotros:not(.rich-txt-row) {
-  padding-right: 14rem;
+.column-nosotros:not(.col-titles) {
+  padding-right: 10%;
 }
 
 .rich-txt-row {
