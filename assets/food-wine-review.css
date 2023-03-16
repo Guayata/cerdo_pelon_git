@@ -1,5 +1,5 @@
 .container-magazine {
-  height: 471px;
+  min-height: 471px;
   display: flex;
 }
 .column-one.magazine-img {
