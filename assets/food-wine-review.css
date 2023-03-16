@@ -13,7 +13,8 @@
   width: 50%;
 }
 
-.review-link-container {
+.review-link-container,
+.button-logo-container {
   margin: 5rem 22rem 0rem 8rem;
 }
 
