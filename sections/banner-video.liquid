@@ -2,8 +2,6 @@
 {% if section.settings['banner-video-file'] != blank %}
   <video class="banner-video" autoplay muted>
     <source src="{{ section.settings.banner-video-file.sources[0].url  }}" type="video/mp4">
-    <div class="circular-text"></div>
-    <div class="play-button"></div>
   </video>
 {% endif %}
 
