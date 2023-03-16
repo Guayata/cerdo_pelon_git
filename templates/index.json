@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "El cerdo pelón mexicano, una especie única",
+            "heading": "El cerdo pelón mexicano,",
             "heading_size": "h0"
           }
         },
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Grupo_184_2x_d78bc387-c269-4bc2-aa73-c5cd0ebf830f.png",
+        "image": "shopify:\/\/shop_images\/Grupo_184.png",
         "image_mobile": "shopify:\/\/shop_images\/Grupo_148.png",
         "image_overlay_opacity": 10,
         "image_height": "medium",
