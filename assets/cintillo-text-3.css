@@ -99,7 +99,7 @@
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .img-text {
-    width: auto;
+    width: 40%;
     flex-direction: row;
     margin: 8% 0;
   }
