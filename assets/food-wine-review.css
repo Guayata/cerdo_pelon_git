@@ -54,4 +54,5 @@ button.leer-articulo {
   color: #ada99f;
   text-transform: uppercase;
   background: transparent;
+  height: fit-content;
 }
