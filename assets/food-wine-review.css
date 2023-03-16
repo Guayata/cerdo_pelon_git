@@ -17,6 +17,9 @@
   .container-magazine {
     flex-direction: column;
   }
+  .column-one.magazine-img {
+    height: 258px;
+  }
   .column-one.magazine-img,
   .column-two.review-link {
     width: 100%;
