@@ -51,7 +51,7 @@ p.magazine-review-intro {
   margin-bottom: auto;
   margin-right: auto;
 }
-button.leer-articulo {
+a.leer-articulo {
   border: 1px solid #aca9a0;
   padding: 9px;
   text-align: center;
