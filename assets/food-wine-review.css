@@ -13,8 +13,7 @@
   width: 50%;
 }
 
-.review-link-container,
-.button-logo-container {
+.review-link-container {
   margin: 5rem 22rem 0rem 8rem;
 }
 
@@ -41,6 +40,10 @@ p.magazine-review-intro {
   font: normal normal 300 13px/16px Helvetica;
   letter-spacing: 0px;
   color: #2d2a29;
+}
+.button-logo-container {
+  display: flex;
+  margin-left: 8rem;
 }
 button.leer-articulo {
   border: 1px solid #aca9a0;
