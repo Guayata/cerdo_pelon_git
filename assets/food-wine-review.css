@@ -13,6 +13,12 @@
   width: 50%;
 }
 
+@media (max-width: 600px) {
+  .column-one.magazine-img.column-two.review-link {
+    width: 100%;
+  }
+}
+
 .review-link-container {
   margin: 5rem 22rem 0rem 8rem;
 }
