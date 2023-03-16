@@ -84,9 +84,10 @@
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .line {
-    border-top: 1px solid white;
-    width: 50%;
+    border-top: 3px solid white;
+    width: 70%;
     border-right: none;
+    display: block;
   }
 }
 .cinta-circle .image-cicle .img-text {
