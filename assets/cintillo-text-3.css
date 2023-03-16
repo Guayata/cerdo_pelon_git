@@ -109,9 +109,10 @@
   line-height: initial;
 }
 .cinta-circle .image-cicle .img-text t {
-  font-family: "Helvetica";
-  margin-top: 20%;
-  line-height: initial;
+  text-align: left;
+  font: oblique normal 300 13px/16px Helvetica;
+  letter-spacing: 0px;
+  color: #2d2a29;
 }
 @media (max-width: 576px) {
   .cinta-circle .image-cicle .img-text t {
