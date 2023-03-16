@@ -191,6 +191,7 @@
   .banner--mobile-bottom .banner__media,
   .banner--stacked:not(.banner--mobile-bottom) .banner__media {
     position: relative;
+    line
   }
 
   .banner--stacked.banner--adapt .banner__content {
@@ -239,6 +240,11 @@
   .banner--stacked .banner__media-image-half {
     width: 100%;
   }
+
+  h2.banner__heading.h0 {
+    margin-top: 50px;
+  }
+  
 }
 
 .banner__content {
