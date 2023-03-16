@@ -8,13 +8,6 @@
 
 .column-nosotros {
   width: 50%;
-  font-family: Junicode Two Beta;
-  font-size: 35px;
-  line-height: 40px;
-  letter-spacing: 0px;
-  color: #2d2a29;
-  text-transform: uppercase;
-  opacity: 1;
 }
 @media (max-width: 700px) {
   .column-nosotros {
@@ -37,6 +30,13 @@
 }
 .col-titles {
   padding-right: 10%;
+  font-family: Junicode Two Beta;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #2d2a29;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 .rich-txt-secondSubtitle {
