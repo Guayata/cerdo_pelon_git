@@ -120,7 +120,7 @@
   }
 }
 
-.title-cinta {
+p.title-cinta {
   font-family: Junicode Two Beta;
   font-size: 40px;
   line-height: 40px;
@@ -129,7 +129,7 @@
   text-transform: uppercase;
 }
 
-.text-cinta {
+p.text-cinta {
   text-align: left;
   font-family: Helvetica;
   font-size: 16px;
