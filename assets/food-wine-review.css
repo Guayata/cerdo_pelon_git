@@ -44,6 +44,7 @@ p.magazine-review-intro {
 .button-logo-container {
   display: flex;
   margin-left: 8rem;
+  height: 122px;
 }
 .button-logo-container > * {
   margin-top: auto;
