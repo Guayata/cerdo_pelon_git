@@ -27,7 +27,6 @@
   .col-titles {
     padding-right: 0%;
     margin-bottom: 5%;
-    padding-left: 10%;
   }
   .rich-txt-normal {
     margin-bottom: 2%;
@@ -41,7 +40,6 @@
 }
 
 .col-titles {
-  padding-right: 10%;
   font-family: Junicode Two Beta;
   font-size: 35px;
   line-height: 40px;
@@ -49,7 +47,7 @@
   color: #2d2a29;
   text-transform: uppercase;
   opacity: 1;
-  padding-left: 14rem;
+  padding: 0 10% 0 10%;
 }
 
 .rich-txt-secondSubtitle {
