@@ -3,17 +3,19 @@
 <script>
   
   
+  
   function changeProducts(e){
     let collection = e.value
     console.log("unfilter", !!$(this).find(`.slick-slide:has([collection="${collection}"])`))
     console.log("filter", !!$(this).find(`.slick-slide:not(:has([collection="${collection}"]))`))
     $('.dawn-product-slider').slick('slickUnfilter',()=>{
-      !!$(this).find(`.slick-slide:has([collection="${collection}"])`);
+      return $(this).find(`.slick-slide [collection="${collection}"]`);
     });
     $('.dawn-product-slider').slick('slickFilter', ()=>{
-      !!$(this).find(`.slick-slide:not(:has([collection="${collection}"]))`);
+      return $(this).find(`.slick-slide div[collection="${collection}"]`).attr("collection") != collection;
     });
   }
+
 
 
 </script>
