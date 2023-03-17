@@ -59,7 +59,7 @@ img.product-image {
 button.btn-ver-detalle {
   display: none;
 }
-.card-img-top:hover + button {
+img.product-image:hover + button.btn-ver-detalle {
   display: block;
 }
 .card-name {
