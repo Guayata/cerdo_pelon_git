@@ -2,13 +2,17 @@
 
 <script>
   
+  
   function changeProducts(e){
     let collection = e.value
-    $('.dawn-product-slider').slick('slickUnfilter');
+    $('.dawn-product-slider').slick('slickUnfilter',()=>{
+      $(this).find(`.slick-slide:has([collection="${collection}"])`);
+    });
     $('.dawn-product-slider').slick('slickFilter', ()=>{
       $(this).find(`.slick-slide:not(:has([collection="${collection}"]))`);
     });
   }
+
 
 </script>
 
