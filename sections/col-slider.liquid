@@ -1,8 +1,7 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
 <script>
-  function customFilter(e) {
-    let selectedCollection = e.value;
+  function customFilter() {
     console.log("selectedCollection", selectedCollection)
     var filterValue = $('input[name="collection"]:checked').val();
     return $(this).attr('collection') == filterValue;
