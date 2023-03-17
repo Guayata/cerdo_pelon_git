@@ -1,29 +1,15 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
 <script>
-  
-  
-  
-
-  
-   
-  
   function changeProducts(e){
     let collection = e.value
     $('.dawn-product-slider').slick('slickFilter', ()=>{
-    return $(this).find('.slickSlide').attr("data-test-id") == "1";
-}); 
-    console.log("collection-->", collection)
-    document.querySelectorAll(`div.slick-slide:has([collection="${collection}"])`)
-      .forEach(elem=> elem.classList.remove('hidden'))
-    document.querySelectorAll(`div.slick-slide:not(:has([collection="${collection}"]))`)
-      .forEach(elem=> elem.classList.add('hidden'))
+      return $(this).find('.slickSlide').attr("collection") != collection;
+    });
+    $('.dawn-product-slider').slick('slickUnfilter', ()=>{
+      return $(this).find('.slickSlide').attr("collection") == collection;
+    });
   }
-
-
-
-
-
 </script>
 
 <div class="collection-labels">
