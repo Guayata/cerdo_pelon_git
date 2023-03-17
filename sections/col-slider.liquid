@@ -3,11 +3,12 @@
 <script>
   function customFilter() {
     var filterValue = $('input[name="collection"]:checked').val();
-    console.log("ñalskdfjñsaldfjlñksadfjlskadjfñlsakdfjlaskdfj")
+    console.log("corrió la custom")
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
   $('input[name="collection"]').on('change', function() {
+    console.log("corrió el onChange")
     $('.slick-slider').slick('slickFilter', customFilter);
   });
 </script>
