@@ -87,3 +87,7 @@ p.product-name {
   letter-spacing: 2px;
   color: #f7f3ed;
 }
+.btn-contactar-vendedor:hover {
+  text-decoration: auto;
+  color: #f7f3ed;
+}
