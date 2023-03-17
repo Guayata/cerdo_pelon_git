@@ -2,10 +2,16 @@
 
 {% javascript %}
   
-  function changeProducts(collection){
-    document.querySelectorAll(`div.slick-slide:not(.slick-cloned):has([collection="${collection}"])`).forEach(elem=> elem.classList.remove('hidden'))
+  
+  function changeProducts(e){
+    let collection = e["collection"]
+    document.querySelectorAll(`div.slick-slide:not(.slick-cloned):has([collection="${collection}"])`)
+      .forEach(elem=> elem.classList.remove('hidden'))
+    document.querySelectorAll(`div.slick-slide:not(.slick-cloned):not(:has([collection="${collection}"]))`)
+      .forEach(elem=> elem.classList.add('hidden'))
     
   }
+
 
 {% endjavascript %}
 
@@ -21,6 +27,7 @@
       {% if forloop.first %}
         checked
       {% endif %}
+      onChange="changeProducts(this)"
     >
     <label for="{{ collection.title }}">{{ collection.title }}</label>
   {% endfor %}
