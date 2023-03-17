@@ -190,12 +190,26 @@
         "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6": {
           "type": "collection",
           "settings": {
-            "collection": "products"
+            "collection": "cerdo"
+          }
+        },
+        "159924a7-44ee-4522-8b2b-422dd35c71b8": {
+          "type": "collection",
+          "settings": {
+            "collection": "curados"
+          }
+        },
+        "65867d41-201b-4247-a262-a7cd0d90e1a9": {
+          "type": "collection",
+          "settings": {
+            "collection": "embutidos"
           }
         }
       },
       "block_order": [
-        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6"
+        "4ee4a5de-0bda-4303-b0e1-7b567b2ec5d6",
+        "159924a7-44ee-4522-8b2b-422dd35c71b8",
+        "65867d41-201b-4247-a262-a7cd0d90e1a9"
       ],
       "settings": {
         "navigation_amount": 3,
