@@ -25,6 +25,7 @@
       {% if forloop.first %}
         checked
       {% endif %}
+      onChange="changeProduct()"
     >
     <label for="{{ collection.title }}">{{ collection.title }}</label>
   {% endfor %}
