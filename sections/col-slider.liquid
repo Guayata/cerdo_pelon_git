@@ -22,12 +22,12 @@
     {%- for product in collections[block.settings.collection].products -%}
       <div class="carousel-cell" collection="{{ collection.title }}">
         <div class="card-top">
+          <button class="btn-ver-detalle">ver detalle</button>
           <img
             class="product-image"
             src="{{ product.featured_image.src | img_url: "large" }}"
             alt="{{ product.featured_image.alt | escape }}"
           >
-          <button class="btn-ver-detalle">ver detalle</button>
         </div>
         <div class="card-bottom">
           <div class="product-name">
