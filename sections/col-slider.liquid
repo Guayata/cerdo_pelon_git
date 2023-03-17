@@ -2,7 +2,6 @@
 
 <script>
   function customFilter() {
-    console.log("selectedCollection", selectedCollection)
     var filterValue = $('input[name="collection"]:checked').val();
     return $(this).attr('collection') == filterValue;
   }
