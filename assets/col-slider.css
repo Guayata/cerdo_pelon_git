@@ -60,6 +60,9 @@
   display: block;
   margin: 0 auto;
 }
+button.btn-ver-detalle {
+  display: none;
+}
 .card-name {
   font-family: "Junicode Two Beta";
   text-align: center;
