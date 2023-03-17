@@ -2,13 +2,16 @@
 
 <script>
   
+  
   function changeProducts(e){
     let collection = e["collection"]
+    console.log("collection-->", collection)
     document.querySelectorAll(`div.slick-slide:not(.slick-cloned):has([collection="${collection}"])`)
       .forEach(elem=> elem.classList.remove('hidden'))
     document.querySelectorAll(`div.slick-slide:not(.slick-cloned):not(:has([collection="${collection}"]))`)
       .forEach(elem=> elem.classList.add('hidden'))
   }
+
 
 </script>
 
