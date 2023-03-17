@@ -9,7 +9,9 @@
 
 .collection-label {
   text-align: center;
-  font: normal normal medium 15px/25px Junicode Two Beta;
+  font-family: Junicode Two Beta;
+  font-size: 15px;
+  line-height: 25px;
   letter-spacing: 0px;
   color: #2d2a29;
   text-transform: uppercase;
