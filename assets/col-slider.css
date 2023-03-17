@@ -71,6 +71,7 @@ p.product-name {
   line-height: 27px;
   letter-spacing: 0px;
   color: #2d2a29;
+  margin: 0;
 }
 
 .btn-contactar-vendedor-container {
