@@ -5,6 +5,8 @@
 
 .collection-labels {
   text-align: center;
+  font-size: 0;
+  letter-spacing: 0;
 }
 
 .collection-label {
