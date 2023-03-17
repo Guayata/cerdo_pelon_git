@@ -18,8 +18,9 @@
 </div>
 <div class="dawn-product-slider mx-auto">
   {% for block in section.blocks %}
+    {% assign collection = block.settings.collection %}
     {%- for product in collections[block.settings.collection].products -%}
-      <div class="carousel-cell">
+      <div class="carousel-cell" collection="{{ collection.title }}">
         <img
           class="card-img-top"
           src="{{ product.featured_image.src | img_url: "large" }}"
