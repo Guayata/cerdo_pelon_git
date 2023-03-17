@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .dawn-product-slider {
   height: 400px;
   width: 75%;
