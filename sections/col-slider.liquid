@@ -8,8 +8,8 @@
     return $(this).attr('custom-attribute') == filterValue;
   }
 
-  $('input[name="collection"]').on('change', function() {
-    $('.slick-slider').slick('slickFilter', customFilter);
+  $('input[name="collection"]').on('change', function(e) {
+    $('.slick-slider').slick('slickFilter', customFilter(e));
   });
 </script>
 
