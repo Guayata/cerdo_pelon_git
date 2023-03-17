@@ -5,11 +5,11 @@
     let selectedCollection = e.value;
     console.log("selectedCollection", selectedCollection)
     var filterValue = $('input[name="collection"]:checked').val();
-    return $(this).attr('custom-attribute') == filterValue;
+    return $(this).attr('collection') == filterValue;
   }
 
-  $('input[name="collection"]').on('change', function(e) {
-    $('.slick-slider').slick('slickFilter', customFilter(e));
+  $('input[name="collection"]').on('change', function() {
+    $('.slick-slider').slick('slickFilter', customFilter;
   });
 </script>
 
