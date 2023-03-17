@@ -1,9 +1,18 @@
 .collection-labels input[name="collection"]:checked + label {
   background-color: #ada99f;
+  color: #f7f3ed;
 }
 
 .collection-labels {
   text-align: center;
+}
+
+.collection-label {
+  text-align: center;
+  font: normal normal medium 15px/25px Junicode Two Beta;
+  letter-spacing: 0px;
+  color: #2d2a29;
+  text-transform: uppercase;
 }
 
 .hidden {
