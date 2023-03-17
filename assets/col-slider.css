@@ -73,6 +73,9 @@ button.btn-ver-detalle {
 .btn-contactar-vendedor {
   text-align: center;
   font: normal normal medium 17px/27px Junicode Two Beta;
+  font-family: Junicode Two Beta;
+  font-size: 17px;
+  line-height: 27px;
   letter-spacing: 0px;
   color: #2d2a29;
 }
