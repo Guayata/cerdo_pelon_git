@@ -2,6 +2,10 @@
   background-color: gray;
 }
 
+.collection-labels {
+  text-align: center;
+}
+
 .dawn-product-slider {
   height: 400px;
   width: 75%;
