@@ -21,23 +21,41 @@
     {% assign collection = block.settings.collection %}
     {%- for product in collections[block.settings.collection].products -%}
       <div class="carousel-cell" collection="{{ collection.title }}">
-        <img
-          class="card-img-top"
-          src="{{ product.featured_image.src | img_url: "large" }}"
-          alt="{{ product.featured_image.alt | escape }}"
-        >
-        <div class="card-body">
-          <div class="row">
-            <div class="card-name">
-              <h5 class="card-title" style="margin-top:1rem;font-size: 17px;">{{ product.title }}</h5>
-            </div>
+        <div class="card-top">
+          <img
+            class="product-image"
+            src="{{ product.featured_image.src | img_url: "large" }}"
+            alt="{{ product.featured_image.alt | escape }}"
+          >
+          <button class="btn-ver-detalle">ver detalle</button>
+        </div>
+        <div class="card-bottom">
+          <div class="card-name">
+            <h5 class="card-title">{{ product.title }}</h5>
           </div>
-          <div class="row" style="height: 40px;">
-            <div class="card-cart">
-              <a href="#globo-formbuilder-89615" class="btn-contactar-vendedor">CONTACTAR VENDEDOR</a>
-            </div>
+          <div class="card-cart">
+            <a href="#globo-formbuilder-89615" class="btn-contactar-vendedor">CONTACTAR VENDEDOR</a>
           </div>
         </div>
+
+        <!--
+          <img
+            class="card-img-top"
+            src="{{ product.featured_image.src | img_url: "large" }}"
+            alt="{{ product.featured_image.alt | escape }}"
+          >
+          <div class="card-bottom">
+              <div class="card-name">
+                <h5 class="card-title" style="margin-top:1rem;font-size: 17px;">{{ product.title }}</h5>
+              </div>
+            </div>
+            <div class="row" style="height: 40px;">
+              <div class="card-cart">
+                <a href="#globo-formbuilder-89615" class="btn-contactar-vendedor">CONTACTAR VENDEDOR</a>
+              </div>
+            </div>
+          </div>
+        -->
       </div>
     {% endfor %}
   {% endfor %}
