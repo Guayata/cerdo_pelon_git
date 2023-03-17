@@ -1,15 +1,15 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
 <script>
+  
   function changeProducts(e){
     let collection = e.value
+    $('.dawn-product-slider').slick('slickUnfilter');
     $('.dawn-product-slider').slick('slickFilter', ()=>{
-      return $(this).find('.slickSlide').attr("collection") != collection;
-    });
-    $('.dawn-product-slider').slick('slickUnfilter', ()=>{
-      return $(this).find('.slickSlide').attr("collection") == collection;
+      $(this).find(`.slick-slide:not(:has([collection="${collection}"]))`);
     });
   }
+
 </script>
 
 <div class="collection-labels">
