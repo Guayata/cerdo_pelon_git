@@ -65,7 +65,7 @@ img.product-image:hover + button.btn-ver-detalle {
 }
 .product-name-container {
   padding: 10px 0px;
-  border-top: 1px solid #ada99f;
+  border-top: 2px solid rgba(128, 128, 128, 0.3);
 }
 p.product-name {
   text-align: center;
