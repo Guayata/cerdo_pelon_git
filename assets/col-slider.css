@@ -50,7 +50,7 @@
   height: 376px;
   border: 2px solid rgba(128, 128, 128, 0.3);
 }
-.card-img-top {
+img.product-image {
   width: 299px;
   height: 276px;
   display: block;
