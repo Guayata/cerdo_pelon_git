@@ -44,15 +44,17 @@
 </div>
 <script>
   function customFilter() {
+    console.log("corrió la custom")
     var filterValue = $('input[name="collection"]:checked').val();
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
   function filterProduct() {
+    console.log("corrió el filter")
     $('.slick-slider').slick('slickUnfilter');
     $('.slick-slider').slick('slickFilter', customFilter);
   }
-  console.log("sí se corre el script aquí")
+  filterProduct()
 </script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
