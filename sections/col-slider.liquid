@@ -1,6 +1,12 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
 {% javascript %}
+  
+  function changeProducts(collection){
+    document.querySelectorAll(`div.slick-slide:not(.slick-cloned):has([collection="${collection}"])`).forEach(elem=> elem.classList.remove('hidden'))
+    
+  }
+
 {% endjavascript %}
 
 <div class="collection-labels">
