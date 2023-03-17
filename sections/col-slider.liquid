@@ -3,6 +3,7 @@
 <script>
   function customFilter() {
     var filterValue = $('input[name="collection"]:checked').val();
+    console.log("filterValue", filterValue)
     return $(this).attr('collection') == filterValue;
   }
 
