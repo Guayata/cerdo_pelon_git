@@ -65,7 +65,6 @@ img.product-image:hover + button.btn-ver-detalle {
 }
 p.product-name {
   text-align: center;
-  font: normal normal medium 17px/27px Junicode Two Beta;
   font-family: Junicode Two Beta;
   font-size: 17px;
   line-height: 27px;
@@ -77,6 +76,7 @@ p.product-name {
 .btn-contactar-vendedor-container {
   text-align: center;
   background: #ada99f 0% 0% no-repeat padding-box;
+  padding: 14px 0px;
 }
 
 .btn-contactar-vendedor {
