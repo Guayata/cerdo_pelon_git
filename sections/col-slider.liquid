@@ -56,20 +56,20 @@
   }
 </style>
 
+<div class="collection-labels">
+  {% for block in section.blocks %}
+    {% assign collection = block.settings.collection %}
+    <input
+      type="radio"
+      id="{{ collection.title }}"
+      name="collection"
+      value="{{ collection.title }}"
+      style="display:none;"
+    >
+    <label for="{{ collection.title }}">{{ collection.title }}</label>
+  {% endfor %}
+</div>
 <div class="dawn-product-slider mx-auto">
-  <div class="collection-labels">
-    {% for block in section.blocks %}
-      {% assign collection = block.settings.collection %}
-      <input
-        type="radio"
-        id="{{ collection.title }}"
-        name="collection"
-        value="{{ collection.title }}"
-        style="display:none;"
-      >
-      <label for="{{ collection.title }}">{{ collection.title }}</label>
-    {% endfor %}
-  </div>
   {% for block in section.blocks %}
     {%- for product in collections[block.settings.collection].products -%}
       <div class="carousel-cell">
