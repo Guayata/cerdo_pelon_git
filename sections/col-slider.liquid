@@ -4,10 +4,11 @@
   
   
   
+  
   function changeProducts(e){
     let collection = e.value
-    console.log($(this).find(`.slick-slide:has([collection="${collection}"])`))
-    console.log($(this).find(`.slick-slide:not(:has([collection="${collection}"]))`))
+    console.log("unfilter", $(this).find(`.slick-slide:has([collection="${collection}"])`))
+    console.log("filter", $(this).find(`.slick-slide:not(:has([collection="${collection}"]))`))
     $('.dawn-product-slider').slick('slickUnfilter',()=>{
       $(this).find(`.slick-slide:has([collection="${collection}"])`);
     });
@@ -15,6 +16,7 @@
       $(this).find(`.slick-slide:not(:has([collection="${collection}"]))`);
     });
   }
+
 
 
 
