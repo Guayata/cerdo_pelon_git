@@ -63,14 +63,6 @@ button.btn-ver-detalle {
   display: block;
 }
 .card-name {
-  font-family: "Junicode Two Beta";
-  text-align: center;
-  margin-top: 0.75rem;
-  border-top: 1px solid rgba(128, 128, 128, 0.2);
-  border-right: 1px solid rgba(128, 128, 128, 0.2);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
-}
-.btn-contactar-vendedor {
   text-align: center;
   font: normal normal medium 17px/27px Junicode Two Beta;
   font-family: Junicode Two Beta;
@@ -78,4 +70,10 @@ button.btn-ver-detalle {
   line-height: 27px;
   letter-spacing: 0px;
   color: #2d2a29;
+}
+.btn-contactar-vendedor {
+  text-align: center;
+  font: normal normal normal 10px/12px Helvetica;
+  letter-spacing: 2px;
+  color: #f7f3ed;
 }
