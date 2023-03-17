@@ -63,7 +63,7 @@ button.btn-ver-detalle {
 img.product-image:hover + button.btn-ver-detalle {
   display: block;
 }
-.product-name {
+p.product-name {
   text-align: center;
   font: normal normal medium 17px/27px Junicode Two Beta;
   font-family: Junicode Two Beta;
