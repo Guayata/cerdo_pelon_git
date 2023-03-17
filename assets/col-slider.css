@@ -75,11 +75,11 @@ img.product-image:hover + button.btn-ver-detalle {
 
 .btn-contactar-vendedor-container {
   text-align: center;
+  background: #ada99f 0% 0% no-repeat padding-box;
 }
 
 .btn-contactar-vendedor {
   font: normal normal normal 10px/12px Helvetica;
   letter-spacing: 2px;
   color: #f7f3ed;
-  background: #ada99f 0% 0% no-repeat padding-box;
 }
