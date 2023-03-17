@@ -7,10 +7,10 @@
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
-  $('input[name="collection"]').on('change', function() {
+  function changeProduct() {
     console.log("corrió el onChange")
     $('.slick-slider').slick('slickFilter', customFilter);
-  });
+  }
 </script>
 
 <div class="collection-labels">
