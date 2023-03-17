@@ -17,6 +17,7 @@
   width: 117px;
   height: 40px;
   line-height: 40px;
+  border: 1px solid #ada99f;
 }
 
 .hidden {
