@@ -33,13 +33,11 @@ $('.dawn-product-slider').slick({
     ]
   });
   function customFilter() {
-    console.log("corrió la custom")
     var filterValue = $('input[name="collection"]:checked').val();
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
   function filterProduct() {
-    console.log("corrió el filter")
     $('.slick-slider').slick('slickUnfilter');
     $('.slick-slider').slick('slickFilter', customFilter);
   }
