@@ -1,7 +1,6 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
-{% javascript %}
-  
+<script>
   
   function changeProducts(e){
     let collection = e["collection"]
@@ -9,11 +8,9 @@
       .forEach(elem=> elem.classList.remove('hidden'))
     document.querySelectorAll(`div.slick-slide:not(.slick-cloned):not(:has([collection="${collection}"]))`)
       .forEach(elem=> elem.classList.add('hidden'))
-    
   }
 
-
-{% endjavascript %}
+</script>
 
 <div class="collection-labels">
   {% for block in section.blocks %}
