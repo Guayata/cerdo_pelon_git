@@ -1,5 +1,8 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
+{% javascript %}
+{% endjavascript %}
+
 <div class="collection-labels">
   {% for block in section.blocks %}
     {% assign collection = block.settings.collection %}
