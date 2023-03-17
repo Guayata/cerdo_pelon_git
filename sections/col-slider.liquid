@@ -1,27 +1,16 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
 
 <script>
-  
-  
-  
-  
-  
-  function changeProducts(e){
-    let collection = e.value
-    console.log("unfilter", !!$(this).find(`.slick-slide:has([collection="${collection}"])`))
-    console.log("filter", !!$(this).find(`.slick-slide:not(:has([collection="${collection}"]))`))
-    $('.dawn-product-slider').slick('slickUnfilter',()=>{
-      return $(this).find(`.slick-slide div[collection="${collection}"]`).attr("collection") == collection;
-    });
-    $('.dawn-product-slider').slick('slickFilter', ()=>{
-      return $(this).find(`.slick-slide div[collection="${collection}"]`).attr("collection") != collection;
-    });
+  function customFilter(e) {
+    let selectedCollection = e.value;
+    console.log("selectedCollection", selectedCollection)
+    var filterValue = $('input[name="collection"]:checked').val();
+    return $(this).attr('custom-attribute') == filterValue;
   }
 
-
-
-
-
+  $('input[name="collection"]').on('change', function() {
+    $('.slick-slider').slick('slickFilter', customFilter);
+  });
 </script>
 
 <div class="collection-labels">
