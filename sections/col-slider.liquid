@@ -1,5 +1,27 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
-<div id="product-popup" class="product-info-popup"></div>
+<div id="product-popup" class="product-info-popup">
+  <div class="product-image-container">
+    <img
+      src="https://cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif"
+      alt="product-image"
+    >
+    <div class="btn-contactar-vendedor-container">
+      <a href="#globo-formbuilder-89615" class="btn-contactar-vendedor">CONTACTAR VENDEDOR</a>
+    </div>
+  </div>
+  <div class="product-info-container">
+    <div class="product-title">
+      <h1>LOMO 10KG</h1>
+    </div>
+    <div class="product-info">
+      <p>
+        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
+        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
+        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
+      </p>
+    </div>
+  </div>
+</div>
 <div class="collection-labels">
   {% for block in section.blocks %}
     {% assign collection = block.settings.collection %}
