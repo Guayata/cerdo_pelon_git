@@ -61,12 +61,16 @@ img.product-image {
 button.btn-ver-detalle {
   text-align: center;
   text-decoration: underline;
-  font: normal normal normal 10px/12px Helvetica;
+  font: 10px/12px Helvetica;
   letter-spacing: 2px;
   color: #2d2a29;
   text-transform: uppercase;
   border: 0;
   background: transparent;
+  position: absolute;
+  top: 33%;
+  transform: translate(-50%, -50%);
+  bottom: unset;
 }
 img.product-image:hover + button.btn-ver-detalle {
   visibility: hidden;
