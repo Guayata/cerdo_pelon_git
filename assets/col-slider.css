@@ -136,13 +136,13 @@ p.product-name {
 #product-popup .product-info-top {
   display: flex;
 }
-img.product-image {
+#product-popup img.product-image {
   width: 428px;
   height: 395px;
   display: block;
   margin: 0 auto;
 }
-h1.product-title {
+#product-popup h1.product-title {
   text-align: center;
   font-family: Junicode Two Beta;
   font-size: 45px;
