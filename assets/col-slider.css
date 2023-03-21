@@ -139,8 +139,7 @@ p.product-name {
 #product-popup img.product-image {
   width: 428px;
   height: 395px;
-  display: block;
-  margin: 0 auto;
+  margin-top: auto;
 }
 #product-popup h1.product-title {
   text-align: center;
