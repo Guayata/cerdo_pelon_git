@@ -47,7 +47,7 @@
             src="{{ product.featured_image.src | img_url: "large" }}"
             alt="{{ product.featured_image.alt | escape }}"
           >
-          <button class="btn-ver-detalle" data-variant="{{ product.id }}">ver detalle</button>
+          <button class="btn-ver-detalle" title="{{ product.title }}" onClick="showPopup(e)">ver detalle</button>
         </div>
         <div class="card-bottom">
           <div class="product-name-container">
