@@ -62,7 +62,7 @@ button.btn-ver-detalle {
   text-align: center;
 }
 img.product-image:hover + button.btn-ver-detalle {
-  display: block !important;
+  position: absolute;
 }
 .product-name-container {
   padding: 10px 0px;
