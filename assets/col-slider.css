@@ -112,3 +112,7 @@ p.product-name {
 #product-popup {
   display: none;
 }
+#product-popup .product-image-container {
+}
+#product-popup .product-info-container {
+}
