@@ -56,10 +56,9 @@ img.product-image {
   margin: 0 auto;
 }
 button.btn-ver-detalle {
-  display: none;
-  position: absolute;
+  text-align: center;
 }
-div.card-top:has(img.product-image:hover) button.btn-ver-detalle {
+img.product-image:hover + button.btn-ver-detalle {
   display: block !important;
 }
 .product-name-container {
