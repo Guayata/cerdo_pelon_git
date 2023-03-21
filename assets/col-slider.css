@@ -119,7 +119,7 @@ p.product-name {
   border: 1px solid #aca9a0;
 }
 #product-popup .product-image-container {
-  border: 1px solid #aca9a0;
+  border-right: 1px solid #aca9a0;
 }
 #product-popup .product-info-container {
   margin: 3% 2% 5% 4%;
