@@ -59,7 +59,7 @@ button.btn-ver-detalle {
   display: none;
   position: absolute;
 }
-img.product-image:hover + button.btn-ver-detalle {
+div.card-top:has(img.product-image:hover) button.btn-ver-detalle {
   display: block !important;
 }
 .product-name-container {
