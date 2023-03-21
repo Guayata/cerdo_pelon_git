@@ -43,11 +43,11 @@ $('.dawn-product-slider').slick({
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
-//   function filterProduct() {
-//     $('.slick-slider').slick('slickUnfilter');
-//     $('.slick-slider').slick('slickFilter', customFilter);
-//   }
-//   filterProduct()
+  function filterProduct() {
+    $('.slick-slider').slick('slickUnfilter');
+    $('.slick-slider').slick('slickFilter', customFilter);
+  }
+  filterProduct()
 
 // function positionButtons() {
 //   $('.slide').each(function() {
