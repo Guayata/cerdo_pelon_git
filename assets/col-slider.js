@@ -1,10 +1,10 @@
 $('.dawn-product-slider').slick({
-    onInit: function() {
-    positionButtons();
-  },
-  onAfterChange: function() {
-    positionButtons();
-  },
+  //   onInit: function() {
+  //   positionButtons();
+  // },
+  // onAfterChange: function() {
+  //   positionButtons();
+  // },
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -43,16 +43,16 @@ $('.dawn-product-slider').slick({
     return $(this).find('div[collection]').attr('collection') == filterValue;
   }
 
-  function filterProduct() {
-    $('.slick-slider').slick('slickUnfilter');
-    $('.slick-slider').slick('slickFilter', customFilter);
-  }
-  filterProduct()
+//   function filterProduct() {
+//     $('.slick-slider').slick('slickUnfilter');
+//     $('.slick-slider').slick('slickFilter', customFilter);
+//   }
+//   filterProduct()
 
-function positionButtons() {
-  $('.slide').each(function() {
-    var slideWidth = $(this).width();
-    var buttonWidth = $(this).find('.button').outerWidth();
-    $(this).find('.button').css('left', (slideWidth - buttonWidth) / 2);
-  });
+// function positionButtons() {
+//   $('.slide').each(function() {
+//     var slideWidth = $(this).width();
+//     var buttonWidth = $(this).find('.button').outerWidth();
+//     $(this).find('.button').css('left', (slideWidth - buttonWidth) / 2);
+//   });
 }
