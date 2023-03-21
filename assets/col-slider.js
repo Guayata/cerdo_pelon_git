@@ -41,7 +41,6 @@ $('.dawn-product-slider').slick({
     $('.slick-slider').slick('slickUnfilter');
     $('.slick-slider').slick('slickFilter', customFilter);
   }
-  filterProduct()
 
 function showPopup(e){
   let title = e.title;
