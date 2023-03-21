@@ -50,6 +50,7 @@ function showPopup(e){
       document.querySelector('#product-popup h1.product-title').innerHTML = json.title;
       document.querySelector('#product-popup img.product-image').src = json.featured_image.src;
       document.querySelector('#product-popup div.product-info').innerHTML = json.description;
+      document.getElementById('product-popup').style.display = 'flex'
       
     })
   });
