@@ -110,7 +110,7 @@ p.product-name {
   color: #f7f3ed;
 }
 #product-popup {
-  display: flex;
+  display: none;
   position: absolute;
   z-index: 1;
   width: 90%;
@@ -120,4 +120,20 @@ p.product-name {
 #product-popup .product-image-container {
 }
 #product-popup .product-info-container {
+  margin: 5%;
+}
+#product-popup .product-info-top {
+  display: flex;
+}
+h1.product-title {
+  text-align: center;
+  font-family: Junicode Two Beta;
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #2d2a29;
+}
+button#btn-close {
+  border: 0;
+  margin-left: auto;
+  background: transparent;
 }
