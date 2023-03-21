@@ -43,10 +43,3 @@ $('.dawn-product-slider').slick({
   }
   filterProduct()
 
-function positionButtons() {
-  $('.slide').each(function() {
-    var slideWidth = $(this).width();
-    var buttonWidth = $(this).find('.button').outerWidth();
-    $(this).find('.button').css('left', (slideWidth - buttonWidth) / 2);
-  });
-}
