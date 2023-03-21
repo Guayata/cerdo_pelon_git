@@ -110,7 +110,12 @@ p.product-name {
   color: #f7f3ed;
 }
 #product-popup {
-  display: none;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  margin: 0% 5%;
+  background: #ffffff 0% 0% no-repeat padding-box;
 }
 #product-popup .product-image-container {
 }
