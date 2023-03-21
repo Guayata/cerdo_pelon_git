@@ -139,4 +139,5 @@ button#btn-close {
   margin-left: auto;
   margin-bottom: auto;
   background: transparent;
+  padding: 0;
 }
