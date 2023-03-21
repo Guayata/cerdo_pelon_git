@@ -1,10 +1,4 @@
 $('.dawn-product-slider').slick({
-    onInit: function() {
-    positionButtons();
-  },
-  onAfterChange: function() {
-    positionButtons();
-  },
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
