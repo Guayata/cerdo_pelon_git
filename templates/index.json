@@ -82,6 +82,7 @@
     },
     "7d06c43f-ddd4-45c0-85cd-064349146998": {
       "type": "banner-video",
+      "disabled": true,
       "settings": {
         "banner-video-file": "shopify:\/\/files\/videos\/video_rancho.mp4"
       }
