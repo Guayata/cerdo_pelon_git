@@ -43,10 +43,5 @@ $('.dawn-product-slider').slick({
   }
   filterProduct();
 
-function showPopup(e){
-  let title = e.title;
-  let res = await fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-')}.js`);
-  let productJson = await res.json();
-  console.log('productjson', productJson);
-}
+
 
