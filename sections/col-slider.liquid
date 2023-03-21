@@ -1,4 +1,5 @@
 {{ 'col-slider.css' | asset_url | stylesheet_tag }}
+<div id="product-popup" class="product-info-popup"></div>
 <div class="collection-labels">
   {% for block in section.blocks %}
     {% assign collection = block.settings.collection %}
