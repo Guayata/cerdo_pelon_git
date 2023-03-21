@@ -60,7 +60,7 @@ button.btn-ver-detalle {
   position: absolute;
 }
 img.product-image:hover + button.btn-ver-detalle {
-  display: block;
+  display: block !important;
 }
 .product-name-container {
   padding: 10px 0px;
