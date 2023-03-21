@@ -129,7 +129,7 @@ p.product-name {
   overflow-y: scroll;
 }
 #product-popup .product-info > * {
-  margin-right: 50px;
+  margin-right: 10%;
 }
 #product-popup .product-info-top {
   display: flex;
