@@ -16,43 +16,7 @@
         <img src="{{ "Grupo 272.svg" | asset_url}}">
       </button>
     </div>
-    <div class="product-info">
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-      <p>
-        No puede faltar en una barbacoa que se precie. Loncha de la zona abdominal del cerdo blanco que al calor de la
-        brasa funde su parte grasa y tuesta la parte magra, impregnándose de un aroma a leña que hará que todas tus
-        papilas gustativas enloquezcan al ponerla entre dos rebanadas de pan.
-      </p>
-    </div>
+    <div class="product-info"></div>
   </div>
 </div>
 <div class="collection-labels">
@@ -76,7 +40,7 @@
   {% for block in section.blocks %}
     {% assign collection = block.settings.collection %}
     {%- for product in collections[block.settings.collection].products -%}
-      <div class="carousel-cell" collection="{{ collection.title }}">
+      <div class="carousel-cell" collection="{{ collection.title }}" variant="{{ product.id }}">
         <div class="card-top">
           <img
             class="product-image"
