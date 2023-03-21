@@ -71,9 +71,10 @@ button.btn-ver-detalle {
   top: 33%;
   transform: translate(-50%, -50%);
   bottom: unset;
+  visibility: hidden;
 }
 img.product-image:hover + button.btn-ver-detalle {
-  visibility: hidden;
+  visibility: visible;
 }
 .product-name-container {
   padding: 10px 0px;
