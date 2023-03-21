@@ -126,7 +126,7 @@ p.product-name {
 }
 #product-popup .product-info {
   margin-right: 2%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 #product-popup .product-info > * {
   margin-right: 10%;
