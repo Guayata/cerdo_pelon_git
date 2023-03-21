@@ -75,6 +75,7 @@ button.btn-ver-detalle {
 }
 img.product-image:hover + button.btn-ver-detalle {
   visibility: visible;
+  background: #ada99f 0% 0% no-repeat padding-box;
 }
 .product-name-container {
   padding: 10px 0px;
