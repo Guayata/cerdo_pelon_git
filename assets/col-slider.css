@@ -114,6 +114,7 @@ p.product-name {
   position: absolute;
   z-index: 1;
   width: 90%;
+  max-height: 524px;
   margin: 0% 5%;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #aca9a0;
