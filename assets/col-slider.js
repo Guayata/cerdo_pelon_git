@@ -38,8 +38,8 @@ $('.dawn-product-slider').slick({
   }
 
   function filterProduct() {
-    $('.dawn-product-slider').slick('slickUnfilter');
-    $('.dawn-product-slider').slick('slickFilter', customFilter);
+    $('.slick-slider').slick('slickUnfilter');
+    $('.slick-slider').slick('slickFilter', customFilter);
   }
   filterProduct()
 
