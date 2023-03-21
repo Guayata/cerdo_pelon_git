@@ -121,6 +121,8 @@ p.product-name {
 }
 #product-popup .product-image-container {
   border-right: 1px solid #aca9a0;
+  display: flex;
+  flex-direction: column;
 }
 #product-popup .product-info-container {
   margin: 3% 2% 5% 4%;
