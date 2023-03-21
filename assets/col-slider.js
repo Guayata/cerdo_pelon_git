@@ -38,10 +38,11 @@ $('.dawn-product-slider').slick({
   }
 
   function filterProduct() {
-    $('.slick-slider').slick('slickUnfilter');
-    $('.slick-slider').slick('slickFilter', customFilter);
+    $('.dawn-product-slider').slick('slickUnfilter');
+    $('.dawn-product-slider').slick('slickFilter', customFilter);
   }
   filterProduct()
+
 function showPopup(e){
   let title = e.title;
   let res = fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-')}.js`).then((res)=>{
