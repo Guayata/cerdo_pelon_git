@@ -100,3 +100,6 @@ p.product-name {
   text-decoration: auto;
   color: #f7f3ed;
 }
+.product-info-popup {
+  display: none;
+}
