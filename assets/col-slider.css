@@ -75,7 +75,8 @@ button.btn-ver-detalle {
   width: 299px;
   height: 276px;
 }
-button.btn-ver-detalle:hover {
+button.btn-ver-detalle:hover,
+img:hover + button {
   visibility: visible;
   background: #ada99f 0% 0% no-repeat padding-box;
 }
