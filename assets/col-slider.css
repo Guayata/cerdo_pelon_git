@@ -128,6 +128,9 @@ p.product-name {
   margin-right: 2%;
   overflow-y: scroll;
 }
+#product-popup .product-info > * {
+  margin-right: 50px;
+}
 #product-popup .product-info-top {
   display: flex;
 }
