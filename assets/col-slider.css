@@ -66,6 +66,7 @@ button.btn-ver-detalle {
   color: #2d2a29;
   text-transform: uppercase;
   border: 0;
+  background: transparent;
 }
 img.product-image:hover + button.btn-ver-detalle {
   visibility: hidden;
