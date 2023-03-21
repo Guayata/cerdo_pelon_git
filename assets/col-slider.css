@@ -73,7 +73,7 @@ button.btn-ver-detalle {
   bottom: unset;
   visibility: hidden;
 }
-img.product-image:hover + button.btn-ver-detalle {
+button.btn-ver-detalle:hover {
   visibility: visible;
   background: #ada99f 0% 0% no-repeat padding-box;
 }
