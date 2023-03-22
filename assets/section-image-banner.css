@@ -243,6 +243,9 @@
 
   h2.banner__heading.h0 {
     margin-top: 50px;
+    font-family: "Snell Roundhand";
+    font-size: 35px;
+    line-height: 44px;
   }
   
 }
