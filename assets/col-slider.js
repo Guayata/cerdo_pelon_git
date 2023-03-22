@@ -1,3 +1,11 @@
+
+$('.dawn-product-slider').on('init', function(event, slick){
+  console.log('slick initialized :))))))))))')
+    document.querySelectorAll('.dawn-product-slider')
+      ?.forEach((e, i)=>{
+        if(i!=0) e.classList.add('d-none')
+      })
+});
 $('.dawn-product-slider').slick({
     infinite: true,
     slidesToShow: 3,
@@ -25,13 +33,6 @@ $('.dawn-product-slider').slick({
 
     ]
   });
-$('.dawn-product-slider').on('init', function(event, slick){
-  console.log('slick initialized :))))))))))')
-    document.querySelectorAll('.dawn-product-slider')
-      ?.forEach((e, i)=>{
-        if(i!=0) e.classList.add('d-none')
-      })
-});
 
 function filterProduct(e){
   let collection = e.value;
