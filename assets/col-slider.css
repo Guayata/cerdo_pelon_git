@@ -58,7 +58,7 @@ img.product-image {
   display: block;
   margin: 0 auto;
 }
-button.btn-ver-detalle {
+button.btn-ver-detalle:not(.mobile) {
   text-align: center;
   text-decoration: underline;
   font: 10px/12px Helvetica;
@@ -161,23 +161,6 @@ button#btn-close {
   padding: 0;
 }
 @media (max-width: 600px) {
-  button.btn-ver-detalle {
-    text-align: center;
-    text-decoration: underline;
-    font: 10px/12px Helvetica;
-    letter-spacing: 2px;
-    color: #2d2a29;
-    text-transform: uppercase;
-    border: 0;
-    background: transparent;
-    position: absolute;
-    top: 38%;
-    transform: translate(-50%, -50%);
-    bottom: unset;
-    visibility: hidden;
-    width: 228px;
-    height: 228px;
-  }
   button.btn-ver-detalle.mobile {
     display: block;
   }
