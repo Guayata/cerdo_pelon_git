@@ -40,10 +40,10 @@ function showPopup(e, isMobile= false){
   let res = fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-').replace(/\+/, '')}.js`).then((res)=>{
     res.json().then((json)=>{
       console.log(json)
-      document.querySelector('#product-popup h1.product-title').innerHTML = json.title;
-      document.querySelector('#product-popup img.product-image').src = json.featured_image  || "https://cdn.shopify.com/s/files/1/0580/1695/6589/products/Logo.jpg?v=1679508881";
-      document.querySelector('#product-popup div.product-info').innerHTML = json.description;
-      document.querySelector('product-popup').style.display = 'flex';
+      document.querySelector(`#product-popup${mobileClass} h1.product-title`).innerHTML = json.title;
+      document.querySelector(`#product-popup${mobileClass} img.product-image`).src = json.featured_image  || "https://cdn.shopify.com/s/files/1/0580/1695/6589/products/Logo.jpg?v=1679508881";
+      document.querySelector(`#product-popup${mobileClass} div.product-info`).innerHTML = json.description;
+      document.querySelector(`product-popup${mobileClass}`).style.display = 'flex';
     })
   });
 }
