@@ -43,12 +43,12 @@
   font-family: Junicode Two Beta;
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 13%;
 }
 @media (max-width: 576px) {
   .formu .container-formu .content-one .content-texto pa {
     font-size: 35px;
     line-height: 35px;
-    margin-bottom: 13%;
   }
 }
 .formu .container-formu .content-one .content-texto cu {
