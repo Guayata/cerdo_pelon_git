@@ -28,8 +28,8 @@ $('.dawn-product-slider').slick({
 
 function filterProduct(e){
   let collection = e.value;
-  document.querySelector('.dawn-product-slider:not(.d-none)')?.classList.add('d-none')
-  document.querySelector(`.dawn-product-slider[collection="${collection}"]`)?.classList.remove('d-none')
+  document.querySelector('.dawn-product-slider.show')?.classList.remove('show')
+  document.querySelector(`.dawn-product-slider[collection="${collection}"]`)?.classList.add('show')
 }
 
 function showPopup(e){
