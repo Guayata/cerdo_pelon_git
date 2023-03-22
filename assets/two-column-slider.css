@@ -171,8 +171,6 @@
 .prev:hover,
 .next:hover {
   color: #fff;
-  background-color: #fff;
-  opacity: 0.5;
 }
 .text {
   color: #fff;
