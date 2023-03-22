@@ -80,7 +80,7 @@ button.btn-ver-detalle:not(.mobile) {
 }
 button.btn-ver-detalle:hover,
 img:hover + button {
-  visibility: visible;
+  visibility: visible !important;
   background: #ada99f 0% 0% no-repeat padding-box;
 }
 .product-name-container {
@@ -230,7 +230,7 @@ button#btn-close {
   .btn-contactar-vendedor-container {
     display: none;
   }
-  button#btn-close{
+  button#btn-close {
     position: absolute;
     top: 1%;
     left: 82%;
