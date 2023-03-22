@@ -84,7 +84,7 @@ img:hover + button {
 }
 img:hover,
 .card-top:has(button.btn-ver-detalle:hover) img {
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 .product-name-container {
   padding: 10px 0px;
