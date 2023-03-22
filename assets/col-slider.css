@@ -163,6 +163,13 @@ button#btn-close {
   background: transparent;
   padding: 0;
 }
+button#btn-close-popup {
+  border: 0;
+  margin-left: auto;
+  margin-bottom: auto;
+  background: transparent;
+  padding: 0;
+}
 @media (max-width: 600px) {
   button.btn-ver-detalle.mobile {
     display: block;
@@ -230,7 +237,7 @@ button#btn-close {
   .btn-contactar-vendedor-container {
     display: none;
   }
-  button#btn-close {
+  button#btn-close-popup {
     position: absolute;
     top: 1%;
     left: 82%;
