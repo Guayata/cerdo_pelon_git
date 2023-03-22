@@ -28,7 +28,7 @@ $('.dawn-product-slider').slick({
 
 function filterProduct(e){
   let collection = e.value;
-  document.querySelector('.dawn-product-slider:not(d-none)')?.classList.add('d-none')
+  document.querySelector('.dawn-product-slider:not(.d-none)')?.classList.add('d-none')
   document.querySelector(`.dawn-product-slider[collection="${collection}"]`)?.classList.remove('d-none')
 }
 
