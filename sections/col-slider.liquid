@@ -39,7 +39,7 @@
 </div>
 {% for block in section.blocks %}
   {% assign collection = block.settings.collection %}
-  <div class="dawn-product-slider mx-auto {% if forloop.index != 0 %} {{ forloop.index }} {% endif %}">
+  <div class="dawn-product-slider mx-auto {% if forloop.index != 1 %} d-none {% endif %}">
     {%- for product in collections[block.settings.collection].products -%}
       <div class="carousel-cell" collection="{{ collection.title }}">
         <div class="card-top">
