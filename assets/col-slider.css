@@ -161,6 +161,8 @@ button#btn-close {
   padding: 0;
 }
 @media (max-width: 600px) {
+  img.product-image {
+  }
   #product-popup {
     display: none;
     position: absolute;
