@@ -25,16 +25,6 @@ $('.dawn-product-slider').slick({
 
     ]
   });
-  function customFilter() {
-    var filterValue = $('input[name="collection"]:checked').val();
-    return $(this).find('div[collection]').attr('collection') == filterValue;
-  }
-
-  function filterProduct() {
-    $('.slick-slider').slick('slickUnfilter');
-    $('.slick-slider').slick('slickFilter', customFilter);
-  }
-  filterProduct()
 
 function showPopup(e){
   let title = e.title;
