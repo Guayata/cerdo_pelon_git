@@ -36,7 +36,7 @@ function filterProduct(e){
 
 function showPopup(e){
   let title = e.title;
-  let res = fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-')}.js`).then((res)=>{
+  let res = fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-').replace(/\+/, '%2b')}.js`).then((res)=>{
     res.json().then((json)=>{
       console.log(json)
       document.querySelector('#product-popup h1.product-title').innerHTML = json.title;
