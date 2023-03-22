@@ -182,7 +182,7 @@ button#btn-close {
   }
   button.btn-ver-detalle:not(.mobile):hover,
   img:hover + button:not(.mobile) {
-    visibility: hidden;
+    visibility: hidden !important;
   }
   #product-popup {
     display: none;
