@@ -35,8 +35,10 @@ function filterProduct(e){
 }
 
 function showPopup(e, isMobile= false){
+  console.log("isMobile", isMobile)
   let title = e.title;
   let mobileClass= isMobile ? '.mobile' : ''
+  console.log(`#product-popup${mobileClass} h1.product-title`)
   let res = fetch(`https://foodnewsisgoodnews.myshopify.com/products/${title.replace(/\s/g, '-').replace(/\+/, '')}.js`).then((res)=>{
     res.json().then((json)=>{
       console.log(json)
