@@ -212,6 +212,7 @@ button#btn-close {
     overflow-y: auto;
     text-align: center;
     margin: auto;
+    padding: 0% 2% 2% 2%;
   }
   #product-popup .product-info > * {
     margin-right: 10%;
