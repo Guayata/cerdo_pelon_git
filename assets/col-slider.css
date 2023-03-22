@@ -66,7 +66,7 @@ button.btn-ver-detalle:not(.mobile) {
   text-decoration: underline;
   font: 10px/12px Helvetica;
   letter-spacing: 2px;
-  color: #2d2a29;
+  color: #f7f3ed;
   text-transform: uppercase;
   border: 0;
   background: transparent;
@@ -81,7 +81,6 @@ button.btn-ver-detalle:not(.mobile) {
 button.btn-ver-detalle:hover,
 img:hover + button {
   visibility: visible !important;
-  color: #f7f3ed;
 }
 img:hover,
 .card-top:has(button.btn-ver-detalle:hover) {
