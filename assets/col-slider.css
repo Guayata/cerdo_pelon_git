@@ -240,4 +240,8 @@ button#btn-close {
     top: 1%;
     left: 82%;
   }
+  .dawn-product-slider {
+    height: 500px;
+    width: 75%;
+  }
 }
