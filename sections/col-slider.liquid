@@ -32,7 +32,7 @@
       {% if forloop.first %}
         checked
       {% endif %}
-      onChange="filterProduct()"
+      onChange="filterProduct(this)"
     >
     <label class="collection-label" for="{{ collection.title }}">{{ collection.title }}</label>
   {% endfor %}
