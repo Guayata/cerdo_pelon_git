@@ -39,7 +39,7 @@
   }
   .stay-connected-juni {
     font-size: 27px !important;
-    padding: 2% 0 10% 0 !important;
+    padding: 0% 0 10% 0 !important;
   }
   .stay-connected-cursive {
     font-size: 30px !important;
@@ -91,7 +91,7 @@ button {
 }
 .stay-connected-cursive {
   text-align: left;
-  font: normal normal normal 20px/25px Snell Roundhand;
+  font: normal normal normal 20px/10px Snell Roundhand;
   letter-spacing: 0px;
   color: #2d2a29;
   margin-bottom: 0px;
