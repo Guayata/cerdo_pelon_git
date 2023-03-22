@@ -44,4 +44,4 @@ function showPopup(e){
     })
   });
 }
-
+document.querySelectorAll(`.dawn-product-slider`).forEach((e)=>e.classList.add('d-none'))
