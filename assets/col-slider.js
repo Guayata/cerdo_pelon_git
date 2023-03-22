@@ -26,7 +26,10 @@ $('.dawn-product-slider').slick({
     ]
   });
 $('.dawn-product-slider').on('init', function(event, slick){
-    
+    document.querySelectorAll('.dawn-product-slider')
+      ?.forEach((e, i)=>{
+        if(i!=0) e.classList.add('d-none')
+      })
 });
 
 function filterProduct(e){
