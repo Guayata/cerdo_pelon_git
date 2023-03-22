@@ -81,7 +81,11 @@ button.btn-ver-detalle:not(.mobile) {
 button.btn-ver-detalle:hover,
 img:hover + button {
   visibility: visible !important;
-  background: #ada99f 0% 0% no-repeat padding-box !important;
+  color: #f7f3ed;
+}
+img:hover,
+.card-top:has(button.btn-ver-detalle:hover) {
+  filter: brightness(0.2);
 }
 .product-name-container {
   padding: 10px 0px;
