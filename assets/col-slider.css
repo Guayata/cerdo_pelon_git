@@ -68,12 +68,12 @@ button.btn-ver-detalle {
   border: 0;
   background: transparent;
   position: absolute;
-  top: 33%;
+  top: 38%;
   transform: translate(-50%, -50%);
   bottom: unset;
   visibility: hidden;
-  width: 299px;
-  height: 276px;
+  width: 326px;
+  height: 326px;
 }
 button.btn-ver-detalle:hover,
 img:hover + button {
