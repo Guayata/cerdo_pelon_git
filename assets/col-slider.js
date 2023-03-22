@@ -1,4 +1,5 @@
 
+  $(document).ready(function() { 
 $('.dawn-product-slider').on('init', function(event, slick){
   console.log('slick initialized :))))))))))')
     document.querySelector('.dawn-product-slider:not(.d-none)')?.classList.add('d-none')
@@ -30,6 +31,7 @@ $('.dawn-product-slider').slick({
 
     ]
   });
+  }
 
 function filterProduct(e){
   let collection = e.value;
