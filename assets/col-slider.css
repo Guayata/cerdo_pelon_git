@@ -162,7 +162,7 @@ button#btn-close {
 }
 @media (max-width: 600px) {
   img.product-image {
-    width: 228px;
+    width: 100%;
   }
   #product-popup {
     display: none;
