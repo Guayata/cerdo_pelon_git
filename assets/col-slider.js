@@ -52,4 +52,5 @@ function showPopup(e, isMobile= false){
 
 function closePopup(){
   document.getElementById('product-popup').style.display = 'none';
+  document.querySelector('#product-popup.mobile').style.display = 'none';
 }
