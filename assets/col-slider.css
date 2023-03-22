@@ -81,7 +81,7 @@ button.btn-ver-detalle:not(.mobile) {
 button.btn-ver-detalle:hover,
 img:hover + button {
   visibility: visible !important;
-  background: #ada99f 0% 0% no-repeat padding-box;
+  background: #ada99f 0% 0% no-repeat padding-box !important;
 }
 .product-name-container {
   padding: 10px 0px;
