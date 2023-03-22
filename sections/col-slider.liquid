@@ -37,10 +37,10 @@
     <label class="collection-label" for="{{ collection.title }}">{{ collection.title }}</label>
   {% endfor %}
 </div>
-<div class="dawn-product-slider mx-auto">
-  {% for block in section.blocks %}
-    {% assign collection = block.settings.collection %}
-    {%- for product in collections[block.settings.collection].products -%}
+{% for block in section.blocks %}
+  {% assign collection = block.settings.collection %}
+  {%- for product in collections[block.settings.collection].products -%}
+    <div class="dawn-product-slider mx-auto">
       <div class="carousel-cell" collection="{{ collection.title }}">
         <div class="card-top">
           <img
@@ -59,9 +59,9 @@
           </div>
         </div>
       </div>
-    {% endfor %}
+    </div>
   {% endfor %}
-</div>
+{% endfor %}
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 {{ 'col-slider.js' | asset_url | script_tag }}
