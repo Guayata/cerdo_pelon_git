@@ -161,6 +161,23 @@ button#btn-close {
   padding: 0;
 }
 @media (max-width: 600px) {
+  button.btn-ver-detalle {
+    text-align: center;
+    text-decoration: underline;
+    font: 10px/12px Helvetica;
+    letter-spacing: 2px;
+    color: #2d2a29;
+    text-transform: uppercase;
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    bottom: unset;
+    visibility: hidden;
+    width: 326px;
+    height: 326px;
+  }
   #product-popup {
     display: none;
     position: absolute;
