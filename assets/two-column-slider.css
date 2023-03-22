@@ -28,11 +28,6 @@
 .container-tho-column .column-one .content-text {
   margin: 6% 15%;
 }
-@media (max-width: 576px) {
-  .container-tho-column .column-one .content-text {
-    margin: 0 10% 0 24%;
-  }
-}
 .container-tho-column .column-one .content-text p {
   text-align: center;
   font: normal normal normal 9px/11px Helvetica;
