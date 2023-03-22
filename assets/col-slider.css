@@ -180,6 +180,7 @@ button#btn-close {
   }
   #product-popup {
     display: none;
+    flex-direction: column;
     position: absolute;
     z-index: 1;
     width: 90%;
