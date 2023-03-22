@@ -130,7 +130,8 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header__icons {display: none;}"
+          ".header__icons {display: none;}",
+          ".header__menu-item {text-transform: uppercase;}"
         ],
         "settings": {
           "color_scheme": "background-2",
