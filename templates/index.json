@@ -117,8 +117,8 @@
     "f4c71394-dc6f-4dd9-97ba-7f2be07265b2": {
       "type": "main-revolving-text",
       "settings": {
-        "cursive": "El cerdo pelón mexicano tiene su origen en 1492",
-        "plain_text": "El cerdo pelón mexicano tiene su origen en 1492",
+        "cursive": "El cerdo pelón mexicano tiene su origen con la llegada de los españoles a México",
+        "plain_text": "El cerdo pelón mexicano tiene su origen con la llegada de los españoles a México",
         "color_text": "#000000"
       }
     },
