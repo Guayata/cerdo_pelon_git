@@ -175,8 +175,8 @@ button#btn-close {
     transform: translate(-50%, -50%);
     bottom: unset;
     visibility: hidden;
-    width: 326px;
-    height: 326px;
+    width: 228px;
+    height: 228px;
   }
   #product-popup {
     display: none;
