@@ -46,3 +46,7 @@ function showPopup(e){
     })
   });
 }
+
+function closePopup(){
+  document.getElementById('product-popup').style.display = 'none';
+}
