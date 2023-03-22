@@ -232,7 +232,7 @@ button#btn-close {
     letter-spacing: 0px;
     color: #2d2a29;
   }
-  .btn-contactar-vendedor-container-popup {
+  .btn-contactar-vendedor-container, .btn-contactar-vendedor-container-popup {
     display: none;
   }
   button#btn-close {
