@@ -102,6 +102,11 @@ p.product-name {
   background: #ada99f 0% 0% no-repeat padding-box;
   padding: 14px 0px;
 }
+.btn-contactar-vendedor-container-popup {
+  text-align: center;
+  background: #ada99f 0% 0% no-repeat padding-box;
+  padding: 14px 0px;
+}
 
 .btn-contactar-vendedor {
   font: normal normal normal 10px/12px Helvetica;
@@ -157,13 +162,6 @@ p.product-name {
   color: #2d2a29;
 }
 button#btn-close {
-  border: 0;
-  margin-left: auto;
-  margin-bottom: auto;
-  background: transparent;
-  padding: 0;
-}
-button#btn-close-popup {
   border: 0;
   margin-left: auto;
   margin-bottom: auto;
@@ -234,10 +232,10 @@ button#btn-close-popup {
     letter-spacing: 0px;
     color: #2d2a29;
   }
-  .btn-contactar-vendedor-container {
+  .btn-contactar-vendedor-container-popup {
     display: none;
   }
-  button#btn-close-popup {
+  button#btn-close {
     position: absolute;
     top: 1%;
     left: 82%;
