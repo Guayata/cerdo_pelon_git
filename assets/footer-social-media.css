@@ -128,7 +128,7 @@ button {
 .content-his {
   font-family: Helvetica;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   @media (max-width: 576px) {
     flex-direction: column;
   }
