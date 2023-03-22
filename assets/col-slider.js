@@ -28,10 +28,10 @@
     });
 
 function filterProduct(e){
-  $('.dawn-product-slider').slick('setPosition');
   let collection = e.value;
   document.querySelector('.dawn-product-slider:not(.d-none)')?.classList.add('d-none')
   document.querySelector(`.dawn-product-slider[collection="${collection}"]`)?.classList.remove('d-none')
+  $('.dawn-product-slider').slick('setPosition');
 }
 
 function showPopup(e){
