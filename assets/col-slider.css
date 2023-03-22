@@ -163,6 +163,14 @@ button#btn-close {
 @media (max-width: 600px) {
   button.btn-ver-detalle.mobile {
     display: block;
+    text-decoration: underline;
+    width: 100%;
+    border: 0;
+    text-transform: uppercase;
+    background: transparent;
+    font: normal normal normal 10px/12px Helvetica;
+    letter-spacing: 2px;
+    color: #2d2a29;
   }
   button.btn-ver-detalle:not(.mobile):hover,
   img:hover + button:not(.mobile) {
