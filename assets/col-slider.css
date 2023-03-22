@@ -106,6 +106,7 @@ p.product-name {
   text-align: center;
   background: #ada99f 0% 0% no-repeat padding-box;
   padding: 14px 0px;
+  width: 100%;
 }
 
 .btn-contactar-vendedor {
@@ -190,7 +191,7 @@ button#btn-close {
     position: absolute;
     z-index: 1;
     width: 90%;
-    height: 524px;
+    height: auto;
     margin: 0% 5%;
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 1px solid #aca9a0;
@@ -201,7 +202,7 @@ button#btn-close {
     flex-direction: column;
   }
   #product-popup .product-info-container {
-    margin: 3% 2% 5% 4%;
+    margin: 0% 0% 0% 0%;
     width: 90%;
   }
   #product-popup .product-info {
