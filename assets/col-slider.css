@@ -58,6 +58,9 @@ img.product-image {
   display: block;
   margin: 0 auto;
 }
+button.btn-ver-detalle.mobile {
+  display: none;
+}
 button.btn-ver-detalle:not(.mobile) {
   text-align: center;
   text-decoration: underline;
