@@ -181,10 +181,9 @@ button#btn-close {
   button.btn-ver-detalle.mobile {
     display: block;
   }
-  button.btn-ver-detalle:hover,
-  img:hover + button {
-    visibility: visible;
-    background: #ada99f 0% 0% no-repeat padding-box;
+  button.btn-ver-detalle:not(.mobile):hover,
+  img:hover + button:not(.mobile) {
+    visibility: hidden;
   }
   #product-popup {
     display: none;
