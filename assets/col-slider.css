@@ -126,6 +126,7 @@ p.product-name {
 }
 #product-popup .product-info-container {
   margin: 3% 2% 5% 4%;
+  width: -webkit-fill-available;
 }
 #product-popup .product-info {
   margin-right: 2%;
