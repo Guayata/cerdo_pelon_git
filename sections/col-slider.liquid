@@ -72,16 +72,14 @@
             src="{{ product.featured_image.src | img_url: "large" }}"
             alt="{{ product.featured_image.alt | escape }}"
           >
-          <button class="btn-ver-detalle" title="{{ product.title | truncate: 20}}" onClick="showPopup(this)">
-            ver detalle
-          </button>
+          <button class="btn-ver-detalle" title="{{ product.title}}" onClick="showPopup(this)">ver detalle</button>
           <button class="btn-ver-detalle mobile" title="{{ product.title }}" onClick="showPopup(this, true)">
             ver detalle
           </button>
         </div>
         <div class="card-bottom">
           <div class="product-name-container">
-            <p class="product-name">{{ product.title }}</p>
+            <p class="product-name">{{ product.title | truncate: 20 }}</p>
           </div>
           <div class="btn-contactar-vendedor-container">
             <a href="#globo-formbuilder-89615" class="btn-contactar-vendedor">CONTACTAR VENDEDOR</a>
