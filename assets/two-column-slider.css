@@ -75,12 +75,13 @@
 }
 .container-tho-column .column-two .content-text p {
   font-family: Junicode Two Beta;
-  font-size: 30px;
-  line-height: 25px;
+  font-size: 45px;
+  line-height: 45px;
 }
 @media (max-width: 576px) {
   .container-tho-column .column-two .content-text p {
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 25px;
   }
 }
 .container-tho-column .column-two .content-text c {
