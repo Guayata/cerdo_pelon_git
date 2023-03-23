@@ -89,7 +89,8 @@
 }
 @media (max-width: 576px) {
   .container-tho-column .column-two .content-text c {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 38px;
   }
 }
 .container-tho-column .column-two .content-text span {
