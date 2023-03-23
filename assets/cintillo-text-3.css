@@ -123,6 +123,7 @@
   }
   .cinta-circle .image-cicle .img-text i {
     width: 150%;
+    font: italic normal 300 13px/16px Helvetica;
   }
 }
 
