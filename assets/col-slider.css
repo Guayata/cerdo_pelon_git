@@ -81,7 +81,7 @@ button.btn-ver-detalle:hover,
 img:hover + button {
   visibility: visible !important;
 }
-img:hover,
+.card-top img:hover,
 .card-top:has(button.btn-ver-detalle:hover) img {
   filter: brightness(0.7);
 }
