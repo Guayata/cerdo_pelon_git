@@ -64,6 +64,7 @@
 @media (max-width: 576px) {
   .container-tho-column .column-two {
     width: 100%;
+    height: 520px;
     display: flex;
     flex-direction: column;
     padding-bottom: 35px;
