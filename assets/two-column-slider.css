@@ -57,12 +57,13 @@
 .container-tho-column .column-two {
   width: 50%;
   height: 470px;
-  background: url("Grupo 287.png");
+  background: transparent url("img/Grupo 181.png") 0% 0% no-repeat padding-box;
   color: #f7f3ed;
   text-align: center;
 }
 @media (max-width: 576px) {
   .container-tho-column .column-two {
+    background: transparent url("img/Grupo 287.png") 0% 0% no-repeat padding-box;
     width: 100%;
     display: flex;
     flex-direction: column;
