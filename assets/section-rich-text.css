@@ -44,8 +44,8 @@
 }
 
 @media screen and (min-width: 750px) {
-  .rich-text__heading {
-    font-family: "Snell Roundhand";
+  .rich-text__heading,
+  .rich-text__text {
     font-size: 30px;
     line-height: 35px;
   }
