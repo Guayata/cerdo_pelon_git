@@ -123,7 +123,7 @@
   <header id="site-header" class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %} {% if section.settings.transparent_header %}site-header-transparent{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
-        <details id="Details-menu-drawer-container" class="menu-drawer-container">
+        <details id="Details-menu-drawer-container" class="menu-drawer-container" onclick="if(this.open) this.classList.toggle('menu-opening')">
           <summary id="header-menu" class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
               {% render 'icon-hamburger' %}
