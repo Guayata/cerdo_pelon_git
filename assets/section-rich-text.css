@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Bosch';
+  font-family: "Bosch";
   src: url(Bosch.otf);
   font-weight: normal;
   font-style: normal;
@@ -7,20 +7,20 @@
 }
 
 @font-face {
-  font-family: 'Snell Roundhand';
+  font-family: "Snell Roundhand";
   src: url(SnellRoundhand.ttc);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.rich-text__heading{
-  font-family: 'Snell Roundhand';
+.rich-text__heading {
+  font-family: "Snell Roundhand";
   font-size: 33px;
 }
 
-.rich-text__text{
-  font-family: 'Junicode Two Beta';
+.rich-text__text {
+  font-family: "Junicode Two Beta";
   font-size: 33px;
 }
 
@@ -44,6 +44,11 @@
 }
 
 @media screen and (min-width: 750px) {
+  .rich-text__heading {
+    font-family: "Snell Roundhand";
+    font-size: 30px;
+    line-height: 35px;
+  }
   .rich-text__wrapper {
     width: 100%;
   }
