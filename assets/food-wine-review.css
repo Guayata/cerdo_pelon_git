@@ -78,10 +78,22 @@ a.leer-articulo {
     margin: 5%;
   }
   p.magazine-review-title {
-    text-align: left;
     font: normal normal normal 30px/35px Snell Roundhand;
+  }
+  p.magazine-review-subtitle {
+    font-family: Junicode Two Beta;
+    font-size: 40px;
+    line-height: 35px;
     letter-spacing: 0px;
     color: #2d2a29;
+    text-transform: uppercase;
     opacity: 1;
+  }
+
+  p.magazine-review-intro {
+    text-align: left;
+    font: normal normal 300 13px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #2d2a29;
   }
 }
