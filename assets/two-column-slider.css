@@ -57,7 +57,7 @@
 .container-tho-column .column-two {
   width: 50%;
   height: 470px;
-  background: url("Grupo 287.png");
+  background: transparent url("Grupo 287.png") 0% 0% no-repeat padding-box;
   color: #f7f3ed;
   text-align: center;
 }
