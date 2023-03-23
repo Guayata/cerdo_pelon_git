@@ -24,7 +24,7 @@
   .column-two.review-link {
     width: 100%;
   }
-  .column-two.review-link-container {
+  .column-two .review-link-container {
     margin: 5%;
   }
 }
