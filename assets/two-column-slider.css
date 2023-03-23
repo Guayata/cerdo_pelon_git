@@ -56,6 +56,7 @@
 }
 .container-tho-column .column-two {
   background: url("Grupo 181.png") no-repeat;
+  background-size: cover;
   width: 50%;
   height: 470px;
   color: #f7f3ed;
@@ -64,6 +65,8 @@
 @media (max-width: 576px) {
   .container-tho-column .column-two {
     background: url("Grupo 287.png") no-repeat;
+
+    background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
