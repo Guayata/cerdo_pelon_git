@@ -173,6 +173,10 @@ button#btn-close {
   padding: 0;
 }
 @media (max-width: 600px) {
+  .slick-next,
+  .slick-prev {
+    top: 40%;
+  }
   button.btn-ver-detalle.mobile {
     display: block;
     text-decoration: underline;
