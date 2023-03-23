@@ -214,7 +214,8 @@
       "header-nosotros": {
         "type": "header-nosotros",
         "custom_css": [
-          ".header__icons {display: none;}"
+          ".header__icons {display: none;}",
+          ".header__menu-item {text-transform: uppercase;}"
         ],
         "settings": {
           "color_scheme": "background-1",
