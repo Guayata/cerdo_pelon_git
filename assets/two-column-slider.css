@@ -83,6 +83,9 @@
     font-size: 30px;
     line-height: 25px;
   }
+  .container-tho-column .column-two .content-text {
+    margin: 7%;
+  }
 }
 .container-tho-column .column-two .content-text c {
   font-family: Snell Roundhand;
