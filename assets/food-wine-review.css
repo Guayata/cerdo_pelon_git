@@ -13,29 +13,6 @@
   width: 50%;
 }
 
-@media (max-width: 600px) {
-  .container-magazine {
-    flex-direction: column;
-  }
-  .column-one.magazine-img {
-    height: 258px;
-  }
-  .column-one.magazine-img,
-  .column-two.review-link {
-    width: 100%;
-  }
-  .column-two .review-link-container {
-    margin: 5%;
-  }
-  p.magazine-review-title {
-    text-align: left;
-    font: normal normal normal 30px/35px Snell Roundhand;
-    letter-spacing: 0px;
-    color: #2d2a29;
-    opacity: 1;
-  }
-}
-
 .review-link-container {
   margin: 8% 28% 0% 10%;
 }
@@ -84,4 +61,27 @@ a.leer-articulo {
   text-transform: uppercase;
   background: transparent;
   height: fit-content;
+}
+
+@media (max-width: 600px) {
+  .container-magazine {
+    flex-direction: column;
+  }
+  .column-one.magazine-img {
+    height: 258px;
+  }
+  .column-one.magazine-img,
+  .column-two.review-link {
+    width: 100%;
+  }
+  .column-two .review-link-container {
+    margin: 5%;
+  }
+  p.magazine-review-title {
+    text-align: left;
+    font: normal normal normal 30px/35px Snell Roundhand;
+    letter-spacing: 0px;
+    color: #2d2a29;
+    opacity: 1;
+  }
 }
