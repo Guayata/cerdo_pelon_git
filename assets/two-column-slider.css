@@ -55,14 +55,15 @@
   font-size: 13px;
 }
 .container-tho-column .column-two {
+  background: url("Grupo 181.png") no-repeat;
   width: 50%;
   height: 470px;
-  background: url("Grupo 287.png");
   color: #f7f3ed;
   text-align: center;
 }
 @media (max-width: 576px) {
   .container-tho-column .column-two {
+    background: url("Grupo 287.png") no-repeat;
     width: 100%;
     display: flex;
     flex-direction: column;
